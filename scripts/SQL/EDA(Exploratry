@@ -59,7 +59,6 @@ FROM Elist_tech_cleaned.dbo.orders
 	-- Avg Sales
 	-- Total Orders
 
-
 SELECT 
 SUM(usd_price) AS total_sales,
 AVG(usd_price) AS avg_sales, 
@@ -132,7 +131,6 @@ LEFT JOIN Elist_tech_cleaned.dbo.customers c
 ON o.customer_id = c.id
 GROUP BY o.customer_id
 ORDER BY total_revenue DESC
-
 
 	-- What is the distribution of sold items across countries?
 
