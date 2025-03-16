@@ -8,12 +8,7 @@ Script Purpose:
 		- Truncates Silver tables.
 		- Inserts transformed and cleansed data from Bronze into Silver tables.
 		
-Parameters:
-    None. 
-	  This stored procedure does not accept any parameters or return any values.
 
-Usage Example:
-    EXEC Silver.load_silver;
 ===============================================================================
 */
 
@@ -38,12 +33,12 @@ IF OBJECT_ID('Elist_tech_cleaned.dbo.customers', 'U') IS NOT NULL
 GO
 
 CREATE TABLE Elist_tech_cleaned.dbo.customers(
-	id						nvarchar(50),
+	id				nvarchar(50),
 	marketing_channel		nvarchar(50),
 	account_creation_method nvarchar(50),
 	country_code			nvarchar(50),
 	loyalty_program			bit,
-	created_on				date
+	created_on			date
 );
 
 GO
@@ -114,8 +109,12 @@ TRIM(LOWER(REPLACE(product_name, '""',''))) AS product_name,
 CASE WHEN currency IS NULL THEN 'unknown'
 	 ELSE currency
 END AS currency,
-ROUND(local_price, 2) AS local_price,
-ROUND(usd_price, 2) AS usd_price,
+CASE WHEN local_price IS NULL THEN 0
+	 ELSE ROUND(local_price, 2) 
+END AS local_price,
+CASE WHEN usd_price IS NULL THEN 0
+	 ELSE ROUND(usd_price, 2) 
+END AS usd_price,
 purchase_platform
 FROM Project_Elits.dbo.order_info
 
@@ -141,7 +140,10 @@ INSERT INTO Elist_tech_cleaned.dbo.geo_lookup(
 	region
 )
 SELECT
-ISNULL(country, 'unknown') AS country,
+CASE WHEN country = 'A1' THEN 'unknown'
+	 WHEN country IS NULL THEN 'unknown'
+	 ELSE country
+END AS country,
 ISNULL(region, 'unknown') AS region
 FROM Project_Elits.dbo.geo_lookup
 
@@ -166,5 +168,7 @@ CASE WHEN country_code = 'A1' THEN 'unknown'
 END  AS country_code,
 loyalty_program,
 created_on
+FROM Project_Elits.dbo.customer_info
+
 FROM Project_Elits.dbo.customer_info
 
