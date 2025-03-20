@@ -13,6 +13,7 @@ WARNING:
     and ensure you have proper backups before running this script.
 */
 
+
 USE master;
 GO
 IF EXISTS (SELECT 1 FROM sys.databases WHERE name = 'Elist_tech_cleaned')
@@ -37,12 +38,12 @@ IF OBJECT_ID('Elist_tech_cleaned.dbo.customers', 'U') IS NOT NULL
 GO
 
 CREATE TABLE Elist_tech_cleaned.dbo.customers(
-	customer_id			nvarchar(50),
-	marketing_channel		nvarchar(50),
-	account_creation_method nvarchar(50),
-	country_code			nvarchar(50),
-	loyalty_program			bit,
-	created_on			date
+	customer_id			 nvarchar(50),
+	marketing_channel		 nvarchar(50),
+	account_creation_method          nvarchar(50),
+	country_code			 nvarchar(50),
+	loyalty_program			 bit,
+	created_on			 date
 );
 
 GO
@@ -53,8 +54,8 @@ IF OBJECT_ID('Elist_tech_cleaned.dbo.geo_lookup', 'U') IS NOT NULL
 GO
 
 CREATE TABLE Elist_tech_cleaned.dbo.geo_lookup(
-	country					nvarchar(50),
-	region					nvarchar(50)
+	country				 nvarchar(50),
+	region				 nvarchar(50)
 );
 
 GO
@@ -65,15 +66,15 @@ IF OBJECT_ID('Elist_tech_cleaned.dbo.orders', 'U') IS NOT NULL
 GO
 
 CREATE TABLE Elist_tech_cleaned.dbo.orders(
-	customer_id				nvarchar(50),
-	id					nvarchar(50),
-	purchase_ts				date,
-	product_id				nvarchar(50),
-	product_name			        nvarchar(50),
-	currency				nvarchar(50),
-	local_price				float,
-	usd_price				float,
-	purchase_platform		        nvarchar(50)
+	customer_id			nvarchar(50),
+	id				nvarchar(50),
+	purchase_ts			date,
+	product_id			nvarchar(50),
+	product_name			nvarchar(50),
+	currency			nvarchar(50),
+	local_price			float,
+	usd_price			float,
+	purchase_platform		nvarchar(50)
 );
 
 GO
