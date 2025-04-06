@@ -7,6 +7,18 @@ Project  Type: Data Cleaning Exploratory Data Analysis Data Visalization
 Relevant Link  
 Type            Stakeholder
 
+## Table of Contents
+- [Project Background](#project-background)
+- [Data Structure & Initial Checks](#data-structure--initial-checks)
+- [Executive Summary](#executive-summary)
+  - [Overview of Findings](#overview-of-findings)
+- [Insights Deep Dive](#insights-deep-dive)
+  - [Category 1](#category-1)
+  - [Category 2](#category-2)
+  - [Category 3](#category-3)
+  - [Category 4](#category-4)
+- [Recommendations](#recommendations)
+- [Assumptions and Caveats](#assumptions-and-caveats)
 
 # Project Background
 
