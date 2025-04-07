@@ -1,4 +1,4 @@
-                                  # Eist Performance Analysis
+                                  # Elist Performance Analysis
 
 
     * Used Tools:       [SQL]SQL Server , [Power BI]
@@ -24,15 +24,17 @@ Type            Stakeholder
 - [Assumptions and Caveats](#assumptions-and-caveats)
 
 # Project Background
+Elist, a global e-commerce company founded in 2018, spesializes in selling popular electronics like Apple, Samsung, and ThinkPad products worldwide via its website and mobile app.
 
-Backround about the company, including the industry, active years, business model, and key business metrics. Explain this from the POV of a data analyst who is working at the company.
+The company has significant amount of data on its sales, marketing efforts, operational efficiency, product offerings, and customer loyalty program that has been previously underutilized. This project thoroughly analyzes and synthesizes this data in order to uncover actionable insights that drive strategic decisions and enhance Elist’s competitive edge and overall success.
 
 Insights and recommendations are provided on the following key areas:
 
-- **Category 1:** 
-- **Category 2:** 
-- **Category 3:** 
-- **Category 4:** 
+- **Sales Trends and Growth Rates:** Evaluation of historical sales patterns, both by region and globally, focusing on Revenue, Order Volume, and Average Order Value (AOV).
+- **Key Product Performance:** An evaluation of various product lines to understand their contribution to revenue and their association with returns.
+- **Loyalty Program Performance:** An assesment of the loyalty program success on sales and customer retention.
+- **Refund Rate Trends:**
+- **Regional Comparisons:** A comparison of sales performance and orders by region.
 
 The SQL queries used to inspect and clean the data for this analysis can be found here [link].
 
