@@ -32,29 +32,24 @@ Insights and recommendations are provided on the following key areas:
 
 - **Sales Trends and Growth Rates:** Evaluation of historical sales patterns, both by region and globally, focusing on Revenue, Order Volume, and Average Order Value (AOV).
 - **Key Product Performance:** An analysis of various product lines to understand their contribution to overall revenue and their association with product returns.
+- **Customer Growth and Repeat Purchase Trends:** 
 - **Loyalty Program Performance:** An assesment of the loyalty program success on sales and customer retention.
 - **Refund Rate Trends:** Examination of refund behaviors over time to identify patterns in return rates and uncover products or categories with elevated risk.----
 - **Regional Comparisons:** A comparison of sales performance and order volume across different regions to identify geographic opportunities and performance gaps.
 
 The SQL queries used to inspect and clean the data for this analysis can be found here [link].
 
-Targed SQL queries regarding various business questions can be found here [link].
-
-An interactive Tableau dashboard used to report and explore sales trends can be found here [link].
-
-
+Targed SQL queries regarding various business questions can be found here [scripts/SQL/EDA(Exploratry].
 
 # Data Structure & Initial Checks
 
-The companies main database structure as seen below consists of four tables: table1, table2, table3, table4, with a total row count of X records. A description of each table is as follows:
-- **Table 2:**
-- **Table 3:**
-- **Table 4:**
-- **Table 5:**
+Elist's database structure as seen below consists of four tables: orders, customers, order_status, geo_lookup, with a total row count of 108,127 records. A description of each table is as follows:
+
 
 [Entity Relationship Diagram here]
 
 
+Prior to beginning the analysis, a variety of checks were conducted to ensure data quality and to become familiar with the dataset. The SQL queries utilized to inspect and perform quality control checks can be found here [link].
 
 # Executive Summary
 
@@ -62,12 +57,13 @@ The companies main database structure as seen below consists of four tables: tab
 
 Explain the overarching findings, trends, and themes in 2-3 sentences here. This section should address the question: "If a stakeholder were to take away 3 main insights from your project, what are the most important things they should know?" You can put yourself in the shoes of a specific stakeholder - for example, a marketing manager or finance director - to think creatively about this section.
 
+Below is the sales overview page from the Power BI dashboard and more examples are included throughout the report. The entire interactive dashboard can be found here [link].
+
 [Visualization, including a graph of overall trends or snapshot of a dashboard]
 
 
-
 # Insights Deep Dive
-### Category 1:
+### Sales Trends and Growth Rates:
 
 * **Main insight 1.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
   
