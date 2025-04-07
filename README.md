@@ -36,7 +36,7 @@ Insights and recommendations are provided on the following key areas:
 - **Refund Rate Trends:** Examination of refund behaviors over time to identify patterns in return rates and uncover products or categories with elevated risk.----
 - **Regional Comparisons:** A comparison of sales performance and order volume across different regions to identify geographic opportunities and performance gaps.
 
-The SQL queries used to inspect and clean the data for this analysis can be found here [link].
+The SQL queries used to inspect and clean the data for this analysis can be found here [[link](https://github.com/gedaipek/SQL-project/tree/main/scripts/SQL)]
 
 Targed SQL queries regarding various business questions can be found here [link].
 
