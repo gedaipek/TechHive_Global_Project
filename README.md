@@ -79,9 +79,9 @@ Below is the sales overview page from the Power BI dashboard and more examples a
 
 ### Product Level Performance:
 
-* **Main insight 1.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+* **Main insight 1.** %85 of the company's total orders are from just three products, Apple Airpods Headphones, Gaming Monitor, and Samsung Charcing Cable Pack. These products accounted for --buna bak-$3.96M---- in revenue in 2022, 70% of the company's total revenue.
   
-* **Main insight 2.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+* **Main insight 2.** Top 3 product who generates the 86.75% overall revenue, gaming monitor, apple airpods headphones, and macbook air laptop with average order values are 
   
 * **Main insight 3.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
   
@@ -103,7 +103,7 @@ Below is the sales overview page from the Power BI dashboard and more examples a
 [Visualization specific to category 3]
 
 
-### Category 4:
+### Regional Comparisons:
 
 * **Main insight 1.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
   
@@ -111,7 +111,7 @@ Below is the sales overview page from the Power BI dashboard and more examples a
   
 * **Main insight 3.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
   
-* **Main insight 4.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+* **Main insight 4.** Europe, the Middle East, and Africa saw a significant
 
 [Visualization specific to category 4]
 
