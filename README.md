@@ -24,17 +24,17 @@ Type            Stakeholder
 - [Assumptions and Caveats](#assumptions-and-caveats)
 
 # Project Background
-Elist, a global e-commerce company founded in 2018, spesializes in selling popular electronics like Apple, Samsung, and ThinkPad products worldwide via its website and mobile app.
+Elist, a global e-commerce company founded in 2018, specializes in selling popular electronics such as Apple, Samsung, and ThinkPad products worldwide via its website and mobile app.
 
-The company has significant amount of data on its sales, marketing efforts, operational efficiency, product offerings, and customer loyalty program that has been previously underutilized. This project thoroughly analyzes and synthesizes this data in order to uncover actionable insights that drive strategic decisions and enhance Elist’s competitive edge and overall success.
+The company holds a significant amount of data related to its sales, marketing efforts, operational efficiency, product offerings, and customer loyalty program that has been previously underutilized. This project thoroughly analyzes and synthesizes that data to uncover actionable insights that drive strategic decisions and enhance Elist’s competitive edge and overall success.
 
 Insights and recommendations are provided on the following key areas:
 
 - **Sales Trends and Growth Rates:** Evaluation of historical sales patterns, both by region and globally, focusing on Revenue, Order Volume, and Average Order Value (AOV).
-- **Key Product Performance:** An evaluation of various product lines to understand their contribution to revenue and their association with returns.
+- **Key Product Performance:** An analysis of various product lines to understand their contribution to overall revenue and their association with product returns.
 - **Loyalty Program Performance:** An assesment of the loyalty program success on sales and customer retention.
-- **Refund Rate Trends:**
-- **Regional Comparisons:** A comparison of sales performance and orders by region.
+- **Refund Rate Trends:** Examination of refund behaviors over time to identify patterns in return rates and uncover products or categories with elevated risk.----
+- **Regional Comparisons:** A comparison of sales performance and order volume across different regions to identify geographic opportunities and performance gaps.
 
 The SQL queries used to inspect and clean the data for this analysis can be found here [link].
 
