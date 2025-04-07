@@ -38,7 +38,7 @@ Insights and recommendations are provided on the following key areas:
 
 The SQL queries used to inspect and clean the data for this analysis can be found here [[link]]
 
-Targed SQL queries regarding various business questions can be found here [[link](https://github.com/gedaipek/SQL-project/tree/main/scripts/SQL)].
+Targed SQL queries regarding various business questions can be found here [[link](https://github.com/gedaipek/SQL-project/blob/main/scripts/SQL/EDA(Exploratry)].
 
 An interactive Tableau dashboard used to report and explore sales trends can be found here [link].
 
