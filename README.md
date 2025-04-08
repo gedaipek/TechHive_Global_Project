@@ -1,4 +1,4 @@
-                                  # Elist Performance Analysis
+                                  # TechHive Global Performance Analysis
 
 
     * Used Tools:       [SQL]SQL Server , [Power BI]
@@ -24,18 +24,16 @@ Type            Stakeholder
 - [Assumptions and Caveats](#assumptions-and-caveats)
 
 # Project Background
-Elist, a global e-commerce company founded in 2018, specializes in selling popular electronics such as Apple, Samsung, and ThinkPad products worldwide via its website and mobile app.
+TechHive Global, US-based e-commerce company founded in 2018, specializes in selling popular electronics such as Apple, Samsung, and ThinkPad products worldwide via its website and mobile app.
 
-The company holds a significant amount of data related to its sales, marketing efforts, operational efficiency, product offerings, and customer loyalty program that has been previously underutilized. This project thoroughly analyzes and synthesizes that data to uncover actionable insights that drive strategic decisions and enhance Elist’s competitive edge and overall success.
+The company holds a significant amount of data related to its sales, marketing efforts, operational efficiency, product offerings, and customer loyalty program that has been previously underutilized. This project thoroughly analyzes and synthesizes that data to uncover actionable insights that drive strategic decisions and enhance TechHive Global’s competitive edge and overall success.
 
 Insights and recommendations are provided on the following key areas:
 
-- **Sales Trends and Growth Rates:** Evaluation of historical sales patterns, both by region and globally, focusing on Revenue, Order Volume, and Average Order Value (AOV).
-- **Key Product Performance:** An analysis of various product lines to understand their contribution to overall revenue and their association with product returns.
-- **Customer Growth and Repeat Purchase Trends:** 
-- **Loyalty Program Performance:** An assesment of the loyalty program success on sales and customer retention.
-- **Refund Rate Trends:** Examination of refund behaviors over time to identify patterns in return rates and uncover products or categories with elevated risk.----
-- **Regional Comparisons:** A comparison of sales performance and order volume across different regions to identify geographic opportunities and performance gaps.
+- **Sales Trends and Growth Rates:** Evaluation of historical sales patterns, both by region and globally, focusing on key metrics Revenue, Order Volume, and Average Order Value (AOV).
+- **Key Product Performance:** An analysis of various of product lines to understand their impact on revenue and their association with product returns.
+- **Loyalty Program Performance:** An assesment of the the company's loyalty program on sales and customer retention.
+- **Regional Comparisons:** An evaluation of sales performance and order volume by region.
 
 The SQL queries used to inspect and clean the data for this analysis can be found here [link].
 
@@ -43,7 +41,7 @@ Targed SQL queries regarding various business questions can be found here [scrip
 
 # Data Structure & Initial Checks
 
-Elist's database structure as seen below consists of four tables: orders, customers, order_status, geo_lookup, with a total row count of 108,127 records. A description of each table is as follows:
+TechHive Global's database structure as seen below consists of four tables: orders, customers, order_status, geo_lookup, with a total row count of 108,127 records. A description of each table is as follows:
 
 
 [Entity Relationship Diagram here]
@@ -72,7 +70,6 @@ Below is the sales overview page from the Power BI dashboard and more examples a
 * **Main insight 3.** Despite the downward trend in 2022, the company's overall performance exceeds 2019 pre-pandemic level baseline in all three key indicator performance indicators. This is primarily due to the stronger 1Q22, which recorded revenue and order count well above the same period in 2020, up 37% and 23% respectively.
   
 * **Main insight 4.** Average order value saw only one month increase in September 2022, this can be attributed to an increased share of high-cost laptop orders.
-* --REGIONU BURAYA MI EKLEMELIYIM?
 
 [Visualization specific to category 1]
 
@@ -92,15 +89,16 @@ Below is the sales overview page from the Power BI dashboard and more examples a
 [Visualization specific to category 2]
 
 
-### Category 3:
+### Loyalty Program Performance:
 
-* **Main insight 1.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+* **Main insight 1.** While loyalty members contributed to only 36% of total revenue with an average order value of $244, non-members generated 64% of total revenue by spending $283 per order on average. In 2020 tekrar sipariş veren 
   
-* **Main insight 2.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+* **Main insight 2.** Beginning in late 2021, loyalty members began to contribute more significantly to revenue. By 2022, they accounted for 52% of total orders and generated $3.96M in revenue, with spending on average $30 more per order that 14% higher than that of non-members. This shift reflects the increasing transactional value and economic impact of the loyalty segment.
   
-* **Main insight 3.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+* **Main insight 3.** Between 2019 and 2022, loyalty members had a 2.71% repeat purchase rate—considerably lower than non-members (9.88%). A total of 1,065 loyalty members made repeat purchases, compared to 4,877 non-members.
   
-* **Main insight 4.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+* **Main insight 4.** Among returning customers, non-members initially outperformed loyalty member in average order spent, peaking at $380 in 2020 and ½330 for loyalty members. However, this trend reversed in 2022, with loyalty members reporting a higher repeat purchase average order value,(
+  
 
 [Visualization specific to category 3]
 
