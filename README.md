@@ -77,15 +77,17 @@ Below is the sales overview page from the Power BI dashboard and more examples a
 [Visualization specific to category 1]
 
 
-### Product Level Performance:
+### Key Product Level Performance:
 
-* **Main insight 1.** Over 85% of total revenue comes from just three products, Gaming Monitor, Apple Airpods Headphones, and Macbook Air Laptop dominate overall sales.
+* **Main insight 1.** 85% of the company’s total revenue is concentrated in three products, the 27in 4K Gaming Monitor which holds the highest individual revenue share at 35%, Apple AirPods Headphones, and the MacBook Air Laptop. These products have generated 75,000 orders and dominate overall sales.
   
-* **Main insight 2.** The top selling product is also the most stable, Gaming Monitor contributes 35% of revenue and maintains a relatively low return rate of 6.34%, making it highly profitable.
+* **Main insight 2.** 85% of the company's total orders are from just three products, Apple Airpods Headphones, 27in 4K Gaming Monitor, and Samsung Charcing Cable Pack. These products accounted for $3.96M in revenue in 2022, 79% of the company's total revenue.
   
-* **Main insight 3.** 85% of the company's total orders are from just three products, Apple Airpods Headphones, Gaming Monitor, and Samsung Charcing Cable Pack. These products accounted for --buna bak-$3.96M---- in revenue in 2022, 70% of the company's total revenue.
+* **Main insight 3.** In the headphones category, the Bose Soundsport Headphones have underperformed, contributing to less than 1% of total revenue and orders despite being, on average, $40 cheaper than the well-performing Apple Airpods.
+
+* **Main insight 4.** The accessories category has grown in its share of total orders, increasing from 21% to 32% in 2022. However, it still contributes less than 4% to overall revenue, indicating that while accessories are moving in volume, they generate limited financial impact.
   
-* **Main insight 4.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+* **Main insight 5.** In the smarphone category, Apple Iphone generated under 1% of the company's total revenue and accounted for less than 1% of total orders between 2019 and 2022. Compared to other Apple products such as the Airpods and Macbook Air, which together made up over 50% of revenue during the same period.
 
 [Visualization specific to category 2]
 
