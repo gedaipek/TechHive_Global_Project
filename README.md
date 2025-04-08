@@ -87,7 +87,7 @@ Below is the sales overview page from the Power BI dashboard and more examples a
 
 * **Main insight 4.** The accessories category has grown in its share of total orders, increasing from 21% to 32% in 2022. However, it still contributes less than 4% to overall revenue, indicating that while accessories are moving in volume, they generate limited financial impact.
   
-* **Main insight 5.** In the smarphone category, Apple Iphone generated under 1% of the company's total revenue and accounted for less than 1% of total orders between 2019 and 2022. Compared to other Apple products such as the Airpods and Macbook Air, which together made up over 50% of revenue during the same period.
+* **Main insight 5.** In the smarphone category, Apple Iphone generated under 1% of the company's total revenue and accounted for less than 1% of total orders between 2019 and 2022. In contrast, other Apple products such as the Airpods and Macbook Air together contributed over 50% of total revenue during the same period.
 
 [Visualization specific to category 2]
 
