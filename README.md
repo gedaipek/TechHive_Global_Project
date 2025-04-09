@@ -63,7 +63,7 @@ Below is the sales overview page from the Power BI dashboard and more examples a
 # Insights Deep Dive
 ### Sales Trends and Growth Rates:
 
-* **Main insight 1.** The company's sales peak in December 2020 with 4,005 total orders and $1,246,007 monthly revenue. This corresponds with the boom in economy-wide spending due to pandemic changing customer behavior.
+* **The company's sales peak in December 2020 with 4,005 total orders and $1,246,007 monthly revenue. This corresponds with the boom in economy-wide spending due to pandemic changing customer behavior.** The company's sales peak in December 2020 with 4,005 total orders and $1,246,007 monthly revenue. This corresponds with the boom in economy-wide spending due to pandemic changing customer behavior.
   
 * **Main insight 2.** Starting from in April 2021, revenue declined on a year over year basis for 21 consecutive months. In October 2022, revenue hit a company lifetime low, with just over $178K, and -72% year over year growth rates. In the following months revenue recovered slightly, following spesific holiday seasonality patterns.
   
