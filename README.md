@@ -1,15 +1,5 @@
                                   # TechHive Global Performance Analysis
-
-
-    * Used Tools:       [SQL]SQL Server , [Power BI]
-    * [Project  Type:]    (#idea)
-    * [Features](#features)
-  * [Installation](#installation)                  
-USED           TOOLS:
-Project  Type: Data Cleaning Exploratory Data Analysis Data Visalization
-Relevant Link  
-Type            Stakeholder
-
+                                  
 ## Table of Contents
 - [Project Background](#project-background)
 - [Data Structure & Initial Checks](#data-structure--initial-checks)
@@ -77,7 +67,7 @@ Below is the sales overview page from the Power BI dashboard and more examples a
 
 ### Key Product Level Performance:
 
-* 85% of the company’s total revenue is concentrated in three products, the 27in 4K Gaming Monitor which holds the highest individual revenue share at 35%, Apple AirPods Headphones, and the MacBook Air Laptop. These products have generated 75,000 orders and dominate overall sales.
+* 85% of the company’s total revenue is concentrated in three products, the 27in 4K Gaming Monitor which holds the highest individual revenue share at 35%, Apple AirPods Headphones, and the MacBook Air Laptop. These three products have generated 75,000 orders and dominate overall sales.
   
 * 85% of the company's total orders are from just three products, Apple Airpods Headphones, 27in 4K Gaming Monitor, and Samsung Charcing Cable Pack. These products accounted for $3.96M in revenue in 2022, 79% of the company's total revenue.
   
@@ -92,7 +82,7 @@ Below is the sales overview page from the Power BI dashboard and more examples a
 
 ### Loyalty Program Performance:
 
-* Loyalty members contributed to 36% of total revenue by spending an average of $244 per order, while non-members contributed 64% by spending approximately $40 more per transaction on average.
+* Loyalty members contributed 36% of total revenue by spending an average of $244 per order, while non-members contributed 64% by spending $40 more per transaction on average.
   
 * In 2019, loyalty members spent an average of $206 per order, generating around $390K in revenue. In contrast, non-members spent $232 per order, resulting in an 11% higher contribution to revenue compared to loyalty members.
 
@@ -108,11 +98,11 @@ Below is the sales overview page from the Power BI dashboard and more examples a
 
 * North America is the company’s largest market, contributing 51% of total revenue and 47% of total order volume. It is followed by Europe, the Middle East, and Africa, accounting for 29% of revenue and 25% of orders, then Asia-Pacific with 12% of revenue and 10% of orders, and finally Latin America, contributing 6% of revenue and 0.06% of total order volume.
 
-* **Main insight 2.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+* From 2019 to 2022, North America consistently held the highest share of both revenue and order volume, with particularly strong performance in Q4 due to seasonal patterns. While revenue and volume remained solid, average order value declined by 7%, suggesting a shift toward a broader customer base making smaller, more frequent purchases.
   
-* **Main insight 3.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+* In 2022, revenue and average order value declined across all regions. However, Asia-Pacific maintained the highest AOV at $241, which is approximately 35% higher than Latin America, the region with the lowest average.
   
-* **Main insight 4.** Europe, the Middle East, and Africa saw a significant increase in order volume share in 4Q22, climbing from 26% to %33 quarter over quarter known region sales.
+* In Q4 2022, Europe, the Middle East, and Africa experienced a significant surge in order volume share, increasing from 26% to 33% quarter-over-quarter, highlighting robust regional sales performance.
 
 [Visualization specific to category 4]
 
@@ -120,18 +110,17 @@ Below is the sales overview page from the Power BI dashboard and more examples a
 
 # Recommendations:
 
-Based on the insights and findings above, we would recommend the [stakeholder team] to consider the following: 
+* With 85% of orders and 70% of revenue coming from just three products, diversifying the product portfolio is crucial. Expanding the accessory category with new product lines, particularly Apple charging cables, would provide upsell opportunities.
 
-* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
-  
-* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
-  
-* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
-  
-* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
-  
-* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
-  
+* Despite the general sales success of Apple products, iPhone sales have been disappointingly low (1% of revenue in 2022). Enhancing marketing efforts to previous Apple product buyers could boost sales.
+
+* Capitalize on the growing share of Samsung accessories which 32% of order count in 2022 by introducing higher-cost Samsung products in already carried product categories such as laptops and cellphones.
+
+* Re-evaluate Bose SoundSport Headphones. As the product has never made up more than 1% of annual revenue, attempt to sell through the product by implementing bundle offers and flash sales to non-Apple ecosystem loyalty members before discontinuing.
+
+* Continue and push forward the loyalty program. In order to convert non-members, consider offering a one-time sign-up discount paired with increased general marketing of membership benefits and savings. Focus targeted and personalized ads to previous customers, and utilize past order data to increase marketing efforts when previously purchased products may need replacing.
+
+* 
 
 
 # Assumptions and Caveats:
