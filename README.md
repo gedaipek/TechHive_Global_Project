@@ -44,8 +44,8 @@ Targed SQL queries regarding various business questions can be found here [scrip
 TechHive Global's database structure as seen below consists of four tables: orders, customers, order_status, geo_lookup, with a total row count of 108,127 records. A description of each table is as follows:
 
 
-[<img width="846" alt="338559122-9898efd1-3dfa-45d8-9f6c-f65a8a1a7407" src="https://github.com/user-attachments/assets/bf15ce96-5065-4f12-a915-b55242dd7b3b" />
-]
+<img width="846" alt="338559122-9898efd1-3dfa-45d8-9f6c-f65a8a1a7407" src="https://github.com/user-attachments/assets/bf15ce96-5065-4f12-a915-b55242dd7b3b" />
+
 
 
 Prior to beginning the analysis, a variety of checks were conducted to ensure data quality and to become familiar with the dataset. The SQL queries utilized to inspect and perform quality control checks can be found here [link].
