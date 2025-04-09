@@ -44,7 +44,8 @@ Targed SQL queries regarding various business questions can be found here [scrip
 TechHive Global's database structure as seen below consists of four tables: orders, customers, order_status, geo_lookup, with a total row count of 108,127 records. A description of each table is as follows:
 
 
-[Entity Relationship Diagram here]
+[<img width="846" alt="338559122-9898efd1-3dfa-45d8-9f6c-f65a8a1a7407" src="https://github.com/user-attachments/assets/bf15ce96-5065-4f12-a915-b55242dd7b3b" />
+]
 
 
 Prior to beginning the analysis, a variety of checks were conducted to ensure data quality and to become familiar with the dataset. The SQL queries utilized to inspect and perform quality control checks can be found here [link].
@@ -63,41 +64,41 @@ Below is the sales overview page from the Power BI dashboard and more examples a
 # Insights Deep Dive
 ### Sales Trends and Growth Rates:
 
-* **The company's sales peak in December 2020 with 4,005 total orders and $1,246,007 monthly revenue. This corresponds with the boom in economy-wide spending due to pandemic changing customer behavior.** The company's sales peak in December 2020 with 4,005 total orders and $1,246,007 monthly revenue. This corresponds with the boom in economy-wide spending due to pandemic changing customer behavior.
+* The company's sales peak in December 2020 with 4,005 total orders and $1,246,007 monthly revenue. This corresponds with the boom in economy-wide spending due to pandemic changing customer behavior. The company's sales peak in December 2020 with 4,005 total orders and $1,246,007 monthly revenue. This corresponds with the boom in economy-wide spending due to pandemic changing customer behavior.
   
-* **Main insight 2.** Starting from in April 2021, revenue declined on a year over year basis for 21 consecutive months. In October 2022, revenue hit a company lifetime low, with just over $178K, and -72% year over year growth rates. In the following months revenue recovered slightly, following spesific holiday seasonality patterns.
+* Starting from in April 2021, revenue declined on a year over year basis for 21 consecutive months. In October 2022, revenue hit a company lifetime low, with just over $178K, and -72% year over year growth rates. In the following months revenue recovered slightly, following spesific holiday seasonality patterns.
   
-* **Main insight 3.** Despite the downward trend in 2022, the company's overall performance exceeds 2019 pre-pandemic level baseline in all three key indicator performance indicators. This is primarily due to the stronger 1Q22, which recorded revenue and order count well above the same period in 2020, up 37% and 23% respectively.
+* Despite the downward trend in 2022, the company's overall performance exceeds 2019 pre-pandemic level baseline in all three key indicator performance indicators. This is primarily due to the stronger 1Q22, which recorded revenue and order count well above the same period in 2020, up 37% and 23% respectively.
   
-* **Main insight 4.** Average order value saw only one month increase in September 2022, this can be attributed to an increased share of high-cost laptop orders.
+* Average order value saw only one month increase in September 2022, this can be attributed to an increased share of high-cost laptop orders.
 
 [Visualization specific to category 1]
 
 
 ### Key Product Level Performance:
 
-* **Main insight 1.** 85% of the company’s total revenue is concentrated in three products, the 27in 4K Gaming Monitor which holds the highest individual revenue share at 35%, Apple AirPods Headphones, and the MacBook Air Laptop. These products have generated 75,000 orders and dominate overall sales.
+* 85% of the company’s total revenue is concentrated in three products, the 27in 4K Gaming Monitor which holds the highest individual revenue share at 35%, Apple AirPods Headphones, and the MacBook Air Laptop. These products have generated 75,000 orders and dominate overall sales.
   
-* **Main insight 2.** 85% of the company's total orders are from just three products, Apple Airpods Headphones, 27in 4K Gaming Monitor, and Samsung Charcing Cable Pack. These products accounted for $3.96M in revenue in 2022, 79% of the company's total revenue.
+* 85% of the company's total orders are from just three products, Apple Airpods Headphones, 27in 4K Gaming Monitor, and Samsung Charcing Cable Pack. These products accounted for $3.96M in revenue in 2022, 79% of the company's total revenue.
   
-* **Main insight 3.** In the headphones category, the Bose Soundsport Headphones have underperformed, contributing to less than 1% of total revenue and orders despite being, on average, $40 cheaper than the well-performing Apple Airpods.
+* In the headphones category, the Bose Soundsport Headphones have underperformed, contributing to less than 1% of total revenue and orders despite being, on average, $40 cheaper than the well-performing Apple Airpods.
 
-* **Main insight 4.** The accessories category has grown in its share of total orders, increasing from 21% to 32% in 2022. However, it still contributes less than 4% to overall revenue, indicating that while accessories are moving in volume, they generate limited financial impact.
+* The accessories category has grown in its share of total orders, increasing from 21% to 32% in 2022. However, it still contributes less than 4% to overall revenue, indicating that while accessories are moving in volume, they generate limited financial impact.
   
-* **Main insight 5.** In the smarphone category, Apple Iphone generated under 1% of the company's total revenue and accounted for less than 1% of total orders between 2019 and 2022. In contrast, other Apple products such as the Airpods and Macbook Air together contributed over 50% of total revenue during the same period.
+* In the smarphone category, Apple Iphone generated under 1% of the company's total revenue and accounted for less than 1% of total orders between 2019 and 2022. In contrast, other Apple products such as the Airpods and Macbook Air together contributed over 50% of total revenue during the same period.
 
 [Visualization specific to category 2]
 
 
 ### Loyalty Program Performance:
 
-* **Main insight 1.** While loyalty members contributed to only 36% of total revenue with an average order value of $244, non-members generated 64% of total revenue by spending $283 per order on average. In 2020 tekrar sipariş veren 
+* Loyalty members contributed to 36% of total revenue by spending an average of $244 per order, while non-members contributed 64% by spending approximately $40 more per transaction on average.
   
-* **Main insight 2.** Beginning in late 2021, loyalty members began to contribute more significantly to revenue. By 2022, they accounted for 52% of total orders and generated $3.96M in revenue, with spending on average $30 more per order that 14% higher than that of non-members. This shift reflects the increasing transactional value and economic impact of the loyalty segment.
+* In 2019, loyalty members spent an average of $206 per order, generating around $390K in revenue. In contrast, non-members spent $232 per order, resulting in an 11% higher contribution to revenue compared to loyalty members.
+
+* In 2021, the order volume share of loyalty members increased by 52%, driven by the acquisition of new members and repeat purchases from existing ones. Despite having a similar average order value of $260, non-members contributed $4.4M to total revenue. This contrast highlights the growing transactional value and economic impact of the loyalty segment.
   
-* **Main insight 3.** Between 2019 and 2022, loyalty members had a 2.71% repeat purchase rate—considerably lower than non-members (9.88%). A total of 1,065 loyalty members made repeat purchases, compared to 4,877 non-members.
-  
-* **Main insight 4.** Among returning customers, non-members initially outperformed loyalty member in average order spent, peaking at $380 in 2020 and ½330 for loyalty members. However, this trend reversed in 2022, with loyalty members reporting a higher repeat purchase average order value,(
+* In 2022, despite a general downward trend in performance across both loyalty members and non-members, returning loyalty customers spent $30 more per order compared to non-members, contributing $2.7M in revenue. In contrast, non-members spent an average of $214 per order, resulting in $2.2M in total revenue. This highlights that even during periods of overall decline, the loyalty program continues to positively impact customer retention and spending behavior.
   
 
 [Visualization specific to category 3]
@@ -105,13 +106,13 @@ Below is the sales overview page from the Power BI dashboard and more examples a
 
 ### Regional Comparisons:
 
-* **Main insight 1.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
+* North America is the company’s largest market, contributing 51% of total revenue and 47% of total order volume. It is followed by Europe, the Middle East, and Africa, accounting for 29% of revenue and 25% of orders, then Asia-Pacific with 12% of revenue and 10% of orders, and finally Latin America, contributing 6% of revenue and 0.06% of total order volume.
+
 * **Main insight 2.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
   
 * **Main insight 3.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
   
-* **Main insight 4.** Europe, the Middle East, and Africa saw a significant
+* **Main insight 4.** Europe, the Middle East, and Africa saw a significant increase in order volume share in 4Q22, climbing from 26% to %33 quarter over quarter known region sales.
 
 [Visualization specific to category 4]
 
@@ -141,4 +142,4 @@ Throughout the analysis, multiple assumptions were made to manage challenges wit
   
 * Assumption 1 (ex: data for December 2021 was missing - this was imputed using a combination of historical trends and December 2020 data)
   
-* Assumption 1 (ex: because 3% of the refund date column contained non-sensical dates, these were excluded from the analysis)
+* Assumption 1 (ex: because 3% of the purchase date column contained non-sensical dates, these were excluded from the analysis)
