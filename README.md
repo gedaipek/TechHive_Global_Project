@@ -15,6 +15,7 @@
 - [Assumptions and Caveats](#assumptions-and-caveats)
 
 
+
 # Project Background
 TechHive Global, US-based e-commerce company founded in 2018, specializes in selling popular electronics such as Apple, Samsung, and ThinkPad products worldwide through its website and mobile app.
 
@@ -31,6 +32,8 @@ The SQL queries used to inspect and clean the data for this analysis can be foun
 
 Targed SQL queries regarding various business questions can be found here [scripts/SQL/EDA(Exploratry].
 
+
+
 # Data Structure & Initial Checks
 
 TechHive Global's database structure as seen below consists of four tables: orders, customers, order_status, geo_lookup, with a total row count of 108,127 records. A description of each table is as follows:
@@ -41,6 +44,8 @@ TechHive Global's database structure as seen below consists of four tables: orde
 
 Prior to beginning the analysis, a variety of checks were conducted to ensure data quality and to become familiar with the dataset. The SQL queries utilized to inspect and perform quality control checks can be found here [link].
 
+
+
 # Executive Summary
 
 ### Overview of Findings
@@ -50,6 +55,7 @@ TechHive experienced strong growth that peaked in late 2020 with a 163% increase
 Below is the sales overview page from the Power BI dashboard and more examples are included throughout the report. The entire interactive dashboard can be found here [link].
 
 ![sales overview](https://github.com/user-attachments/assets/e5521403-c73a-45db-80c9-b5c58cf49cf8)
+
 
 
 # Insights Deep Dive
@@ -82,6 +88,7 @@ Below is the sales overview page from the Power BI dashboard and more examples a
 ![productlineson](https://github.com/user-attachments/assets/2a0d0954-c891-410c-af82-0a3454cc9aac)
 
 
+
 ### Loyalty Program Performance:
 
 * Loyalty members contributed 36% of total revenue by spending an average of $244 per order, while non-members contributed 64% by spending $40 more per transaction on average.
@@ -94,6 +101,7 @@ Below is the sales overview page from the Power BI dashboard and more examples a
   
 
 ![aov by loyalty](https://github.com/user-attachments/assets/a058da61-437a-4adb-8ed7-f79d4070cb3a)
+
 
 
 ### Regional Comparisons:
@@ -109,6 +117,7 @@ Below is the sales overview page from the Power BI dashboard and more examples a
 ![sales by regions](https://github.com/user-attachments/assets/535e2f32-9bf5-4b47-82db-1033ba2b65ca)
 
 
+
 # Recommendations:
 
 * With 70% of orders and 86% of revenue coming from just three products, diversifying the product category is crucial to reduce business risk. Expanding the accessory category with new, high-demand product lines, particularly Apple charging cables, would provide upsell opportunities and support sustainable revenue growth.
@@ -122,6 +131,7 @@ Below is the sales overview page from the Power BI dashboard and more examples a
 * Continue and push forward the loyalty program. In order to convert non-members, consider offering a one-time sign-up discount paired with increased general marketing of membership benefits and savings. Focus targeted and personalized ads to previous customers, and utilize past order data to increase marketing efforts when previously purchased products may need replacing.
 
 * While the North America is the top-performer region, contributing 51% of total revenue and 47% of total orders, continuing to prioritize this key market, consider targeted marketing campaigns and bundled offers to encourage higher-value purchases and reverse the downward trend in AOV.
+
 
 
 # Assumptions and Caveats:
