@@ -1,5 +1,6 @@
 
-                           # TechHive Global 
+
+                                             # TechHive Global Sales Performance Analysis
 
 ## Table of Contents
 - [Project Background](#project-background)
@@ -54,7 +55,7 @@ TechHive experienced strong growth that peaked in late 2020 with a 163% increase
 
 Below is the sales overview page from the Power BI dashboard and more examples are included throughout the report. The entire interactive dashboard can be found here [link].
 
-![sales overview](https://github.com/user-attachments/assets/e5521403-c73a-45db-80c9-b5c58cf49cf8)
+![sales overview2](https://github.com/user-attachments/assets/8b015681-36d0-485b-a2d2-28c1a4855ea9)
 
 
 
