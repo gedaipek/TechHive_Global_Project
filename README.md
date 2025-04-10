@@ -1,6 +1,7 @@
 
+ # TechHive Global Sales Performance Analysis
 
-                                             # TechHive Global Sales Performance Analysis
+
 
 ## Table of Contents
 - [Project Background](#project-background)
