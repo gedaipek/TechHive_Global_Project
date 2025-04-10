@@ -1,5 +1,6 @@
-                             ## TechHive Global Performance Analysis
-                                  
+
+                           # TechHive Global 
+
 ## Table of Contents
 - [Project Background](#project-background)
 - [Data Structure & Initial Checks](#data-structure--initial-checks)
