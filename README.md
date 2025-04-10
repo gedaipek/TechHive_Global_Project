@@ -38,7 +38,7 @@ Targed SQL queries regarding various business questions can be found here [scrip
 
 # Data Structure & Initial Checks
 
-TechHive Global's database structure as seen below consists of four tables: orders, customers, order_status, geo_lookup, with a total row count of 108,127 records. A description of each table is as follows:
+TechHive Global's database structure as seen below consists of four tables: orders, customers, order_status, geo_lookup, with a total row count of 180,127 records. A description of each table is as follows:
 
 
 <img width="846" alt="338559122-9898efd1-3dfa-45d8-9f6c-f65a8a1a7407" src="https://github.com/user-attachments/assets/bf15ce96-5065-4f12-a915-b55242dd7b3b" />
@@ -47,17 +47,15 @@ TechHive Global's database structure as seen below consists of four tables: orde
 Prior to beginning the analysis, a variety of checks were conducted to ensure data quality and to become familiar with the dataset. The SQL queries utilized to inspect and perform quality control checks can be found here [link].
 
 
-
 # Executive Summary
 
 ### Overview of Findings
 
-TechHive experienced strong growth that peaked in late 2020 with a 163% increase in revenue. However, the company’s sales have steadily declined afterward, with significant drops recorded in 2022. Key performance indicators show year-over-year decreases across the board: revenue fell by 46%, order volume by 40%, and average order value by 10%. While this sharp decline may reflect post-pandemic market normalization, the following sections will explore additional factors influencing sales performance and highlight key opportunity areas for improvement.
+TechHive's sales analysis of 180k records between 2019-2022 shows annual revenue stabilizing at around $7 million, with North America, Europe, The Middle East, and Africa contributing 85% of sales. Gaming Monitor, and Apple Airpods account for 65% of revenue. The company experienced strong growth that peaked in late 2020 with a 163% increase in revenue. However, the company’s sales have steadily declined afterward, with significant drops recorded in 2022. Key performance indicators show year over year decreases across the board: revenue fell by 46%, order volume by 40%, and average order value by 10%. While this sharp decline may reflect post-pandemic market normalization, the following sections will explore additional factors influencing sales performance and highlight key opportunity areas for improvement.
 
 Below is the sales overview page from the Power BI dashboard and more examples are included throughout the report. The entire interactive dashboard can be found here [link].
 
-![sales overview2](https://github.com/user-attachments/assets/8b015681-36d0-485b-a2d2-28c1a4855ea9)
-
+![overview](https://github.com/user-attachments/assets/98de4e4d-678f-440a-8c5f-acc63f89b5fb)
 
 
 # Insights Deep Dive
@@ -71,15 +69,15 @@ Below is the sales overview page from the Power BI dashboard and more examples a
   
 * Average order value increased only once in September 2022, this can be attributed to an increased share of high-cost laptop orders.
 
-![year over year](https://github.com/user-attachments/assets/28da0432-b41c-415d-939f-ad9ae69adc9a)
 
+![year over year](https://github.com/user-attachments/assets/28da0432-b41c-415d-939f-ad9ae69adc9a)
 
 
 ### Key Product Level Performance:
 
-* 86% of the TechHive’s total revenue is concentrated in three products, Gaming Monitor which holds the highest individual revenue share at 35%, Apple Airpods Headphones, and Macbook Air Laptop. These three products have generated 75,000 orders, representing 70% of total order volume, indicating a high dependency on a narrow product assortment.
-  
-* In 2022, 85% of the company's total orders comes from just three products, Apple Airpods Headphones, Gaming Monitor, and Macbook Air Laptop These products accounted for $3.96M in revenue in 2022, 79% of the company's total revenue.
+* 86% of the TechHive’s total revenue is concentrated in three products, Gaming Monitor which holds the highest individual revenue share at 35%, Apple Airpods, and Macbook Air Laptop. These three products have generated 75,000 orders, representing 70% of total order volume, indicating a high dependency on a narrow product assortment.
+ 
+* In 2022, 85% of the company's total orders comes from just three products, Apple Airpods, Gaming Monitor, and Macbook Air Laptop. These products accounted for $3.96M in revenue in 2022, 79% of the company's total revenue.
   
 * In the headphones category, the Bose Soundsport Headphones have underperformed, contributing to less than 1% of total revenue and orders despite being, on average, $40 cheaper than the well-performing Apple Airpods.
 
@@ -88,7 +86,6 @@ Below is the sales overview page from the Power BI dashboard and more examples a
 * In the smarphone category, Apple Iphone generated under 1% of the company's total revenue and accounted for less than 1% of total orders between 2019 and 2022. In contrast, other Apple products such as the Airpods and Macbook Air together contributed over 50% of total revenue during the same period.
 
 ![productlineson](https://github.com/user-attachments/assets/2a0d0954-c891-410c-af82-0a3454cc9aac)
-
 
 
 ### Loyalty Program Performance:
@@ -105,7 +102,6 @@ Below is the sales overview page from the Power BI dashboard and more examples a
 ![aov by loyalty](https://github.com/user-attachments/assets/a058da61-437a-4adb-8ed7-f79d4070cb3a)
 
 
-
 ### Regional Comparisons:
 
 * North America is the company’s largest market, contributing 51% of total revenue and 47% of total order volume. It is followed by Europe, the Middle East, and Africa, accounting for 29% of revenue and 25% of orders, then Asia-Pacific with 12% of revenue and 10% of orders, and finally Latin America, contributing 6% of revenue and 0.06% of total order volume.
@@ -117,7 +113,6 @@ Below is the sales overview page from the Power BI dashboard and more examples a
 * In Q4 2022, Europe, the Middle East, and Africa experienced a significant surge in order volume share, increasing from 26% to 33% quarter-over-quarter, highlighting robust seasonal demand and regional sales performance.
 
 ![sales by regions](https://github.com/user-attachments/assets/535e2f32-9bf5-4b47-82db-1033ba2b65ca)
-
 
 
 # Recommendations:
@@ -133,7 +128,6 @@ Below is the sales overview page from the Power BI dashboard and more examples a
 * Continue and push forward the loyalty program. In order to convert non-members, consider offering a one-time sign-up discount paired with increased general marketing of membership benefits and savings. Focus targeted and personalized ads to previous customers, and utilize past order data to increase marketing efforts when previously purchased products may need replacing.
 
 * While the North America is the top-performer region, contributing 51% of total revenue and 47% of total orders, continuing to prioritize this key market, consider targeted marketing campaigns and bundled offers to encourage higher-value purchases and reverse the downward trend in AOV.
-
 
 
 # Assumptions and Caveats:
