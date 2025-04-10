@@ -48,7 +48,7 @@ After Elist experienced strong growth that peaked in late 2020 with a 163% incre
 
 Below is the sales overview page from the Power BI dashboard and more examples are included throughout the report. The entire interactive dashboard can be found here [link].
 
-[Visualization, including a graph of overall trends or snapshot of a dashboard]
+![sales overview](https://github.com/user-attachments/assets/e5521403-c73a-45db-80c9-b5c58cf49cf8)
 
 
 # Insights Deep Dive
@@ -62,7 +62,7 @@ Below is the sales overview page from the Power BI dashboard and more examples a
   
 * Average order value saw only one month increase in September 2022, this can be attributed to an increased share of high-cost laptop orders.
 
-[Visualization specific to category 1]
+![yoy trends](https://github.com/user-attachments/assets/e96bdd6c-05ea-401d-81f0-9e7fa8693e9a)
 
 
 ### Key Product Level Performance:
@@ -91,7 +91,8 @@ Below is the sales overview page from the Power BI dashboard and more examples a
 * In 2022, despite a general downward trend in performance across both loyalty members and non-members, returning loyalty customers spent $30 more per order compared to non-members, contributing $2.7M in revenue. In contrast, non-members spent an average of $214 per order, resulting in $2.2M in total revenue. This highlights that even during periods of overall decline, the loyalty program continues to positively impact customer retention and spending behavior.
   
 
-[Visualization specific to category 3]
+![aov by loyalty](https://github.com/user-attachments/assets/a058da61-437a-4adb-8ed7-f79d4070cb3a)
+
 
 
 ### Regional Comparisons:
@@ -104,8 +105,7 @@ Below is the sales overview page from the Power BI dashboard and more examples a
   
 * In Q4 2022, Europe, the Middle East, and Africa experienced a significant surge in order volume share, increasing from 26% to 33% quarter-over-quarter, highlighting robust regional sales performance.
 
-[Visualization specific to category 4]
-
+![sales by regions](https://github.com/user-attachments/assets/535e2f32-9bf5-4b47-82db-1033ba2b65ca)
 
 
 # Recommendations:
