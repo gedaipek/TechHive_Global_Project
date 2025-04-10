@@ -6,24 +6,25 @@
 - [Executive Summary](#executive-summary)
   - [Overview of Findings](#overview-of-findings)
 - [Insights Deep Dive](#insights-deep-dive)
-  - [Category 1](#category-1)
-  - [Category 2](#category-2)
-  - [Category 3](#category-3)
-  - [Category 4](#category-4)
+  - [Sales Trends and Growth Rates](#sales-trends-and-growth-rates)
+  - [Key Product Level Performance](#key-product-level-performance)
+  - [Loyalty Program Performance](#loyalty-program-performance)
+  - [Regional Comparisons](#regional-comparisons)
 - [Recommendations](#recommendations)
 - [Assumptions and Caveats](#assumptions-and-caveats)
 
-# Project Background
-TechHive Global, US-based e-commerce company founded in 2018, specializes in selling popular electronics such as Apple, Samsung, and ThinkPad products worldwide via its website and mobile app.
 
-The company holds a significant amount of data related to its sales, marketing efforts, operational efficiency, product offerings, and customer loyalty program that has been previously underutilized. This project thoroughly analyzes and synthesizes that data to uncover actionable insights that drive strategic decisions and enhance TechHive Global’s competitive edge and overall success.
+# Project Background
+TechHive Global, US-based e-commerce company founded in 2018, specializes in selling popular electronics such as Apple, Samsung, and ThinkPad products worldwide through its website and mobile app.
+
+The company holds a significant amount of data related to its sales, marketing efforts, operational efficiency, product portfolio, and customer loyalty program that has been underutilized. This project thoroughly analyzes and synthesizes that data to uncover actionable insights that drive strategic decisions and enhance TechHive Global’s competitive edge and overall success.
 
 Insights and recommendations are provided on the following key areas:
 
-- **Sales Trends and Growth Rates:** Evaluation of historical sales patterns, both by region and globally, focusing on key metrics Revenue, Order Volume, and Average Order Value (AOV).
+- **Sales Trends and Growth Rates:** Evaluating historical sales patterns globally and by region, focusing on revenue, order volume, and average order value.
 - **Key Product Performance:** An analysis of various of product lines to understand their impact on revenue and their association with product returns.
-- **Loyalty Program Performance:** An assesment of the the company's loyalty program on sales and customer retention.
-- **Regional Comparisons:** An evaluation of sales performance and order volume by region.
+- **Loyalty Program Performance:** Evaluating the impact of the loyalty program on customer retention and sales.
+- **Regional Comparisons:** Comparing performance across regions in terms of sales and order volume.
 
 The SQL queries used to inspect and clean the data for this analysis can be found here [link].
 
@@ -37,14 +38,13 @@ TechHive Global's database structure as seen below consists of four tables: orde
 <img width="846" alt="338559122-9898efd1-3dfa-45d8-9f6c-f65a8a1a7407" src="https://github.com/user-attachments/assets/bf15ce96-5065-4f12-a915-b55242dd7b3b" />
 
 
-
 Prior to beginning the analysis, a variety of checks were conducted to ensure data quality and to become familiar with the dataset. The SQL queries utilized to inspect and perform quality control checks can be found here [link].
 
 # Executive Summary
 
 ### Overview of Findings
 
-After Elist experienced strong growth that peaked in late 2020 with a 163% increase in revenue, the company’s sales have steadily declined, with significant drops recorded in 2022. Key performance indicators show year-over-year decreases across the board: revenue fell by 46%, order volume by 40%, and average order value by 10%. While this sharp decline may reflect post-pandemic market normalization, the following sections will explore additional factors influencing sales performance and highlight key opportunity areas for improvement.
+TechHive experienced strong growth that peaked in late 2020 with a 163% increase in revenue. However, the company’s sales have steadily declined afterward, with significant drops recorded in 2022. Key performance indicators show year-over-year decreases across the board: revenue fell by 46%, order volume by 40%, and average order value by 10%. While this sharp decline may reflect post-pandemic market normalization, the following sections will explore additional factors influencing sales performance and highlight key opportunity areas for improvement.
 
 Below is the sales overview page from the Power BI dashboard and more examples are included throughout the report. The entire interactive dashboard can be found here [link].
 
@@ -56,20 +56,20 @@ Below is the sales overview page from the Power BI dashboard and more examples a
 
 * The company's sales peak in December 2020 with 4,005 total orders and $1,246,007 monthly revenue. This corresponds with the boom in economy-wide spending due to pandemic changing customer behavior. The company's sales peak in December 2020 with 4,005 total orders and $1,246,007 monthly revenue. This corresponds with the boom in economy-wide spending due to pandemic changing customer behavior.
   
-* Starting from in April 2021, revenue declined on a year over year basis for 21 consecutive months. In October 2022, revenue hit a company lifetime low, with just over $178K, and -72% year over year growth rates. In the following months revenue recovered slightly, following spesific holiday seasonality patterns.
+* Starting from in April 2021, revenue declined on a year over year basis for 21 consecutive months. In October 2022, revenue hit a company lifetime low, with $178K, and 72% year over year decline. In the following months revenue recovered slightly, following spesific holiday seasonality patterns.
   
 * Despite the downward trend in 2022, the company's overall performance exceeds 2019 pre-pandemic level baseline in all three key indicator performance indicators. This is primarily due to the stronger 1Q22, which recorded revenue and order count well above the same period in 2020, up 37% and 23% respectively.
   
-* Average order value saw only one month increase in September 2022, this can be attributed to an increased share of high-cost laptop orders.
+* Average order value increased only once in September 2022, this can be attributed to an increased share of high-cost laptop orders.
 
 ![year over year](https://github.com/user-attachments/assets/67cd1abe-0940-425e-8f6b-ac55dd70a906)
 
 
 ### Key Product Level Performance:
 
-* 85% of the company’s total revenue is concentrated in three products, the 27in 4K Gaming Monitor which holds the highest individual revenue share at 35%, Apple AirPods Headphones, and the MacBook Air Laptop. These three products have generated 75,000 orders and dominate overall sales.
+* 86% of the TechHive’s total revenue is concentrated in three products, Gaming Monitor which holds the highest individual revenue share at 35%, Apple Airpods Headphones, and Macbook Air Laptop. These three products have generated 75,000 orders, representing 70% of total order volume, indicating a high dependency on a narrow product assortment.
   
-* 85% of the company's total orders are from just three products, Apple Airpods Headphones, 27in 4K Gaming Monitor, and Samsung Charcing Cable Pack. These products accounted for $3.96M in revenue in 2022, 79% of the company's total revenue.
+* In 2022, 85% of the company's total orders comes from just three products, Apple Airpods Headphones, Gaming Monitor, and Macbook Air Laptop These products accounted for $3.96M in revenue in 2022, 79% of the company's total revenue.
   
 * In the headphones category, the Bose Soundsport Headphones have underperformed, contributing to less than 1% of total revenue and orders despite being, on average, $40 cheaper than the well-performing Apple Airpods.
 
@@ -77,7 +77,7 @@ Below is the sales overview page from the Power BI dashboard and more examples a
   
 * In the smarphone category, Apple Iphone generated under 1% of the company's total revenue and accounted for less than 1% of total orders between 2019 and 2022. In contrast, other Apple products such as the Airpods and Macbook Air together contributed over 50% of total revenue during the same period.
 
-![product](https://github.com/user-attachments/assets/a938af8a-58d1-4805-82be-678e2e3ee0ed)
+![productlineson](https://github.com/user-attachments/assets/2a0d0954-c891-410c-af82-0a3454cc9aac)
 
 
 ### Loyalty Program Performance:
@@ -94,31 +94,33 @@ Below is the sales overview page from the Power BI dashboard and more examples a
 ![aov by loyalty](https://github.com/user-attachments/assets/a058da61-437a-4adb-8ed7-f79d4070cb3a)
 
 
-
 ### Regional Comparisons:
 
 * North America is the company’s largest market, contributing 51% of total revenue and 47% of total order volume. It is followed by Europe, the Middle East, and Africa, accounting for 29% of revenue and 25% of orders, then Asia-Pacific with 12% of revenue and 10% of orders, and finally Latin America, contributing 6% of revenue and 0.06% of total order volume.
 
-* From 2019 to 2022, North America consistently held the highest share of both revenue and order volume, with particularly strong performance in Q4 due to seasonal patterns. While revenue and volume remained solid, average order value declined by 7%, suggesting a shift toward a broader customer base making smaller, more frequent purchases.
+* From 2019 to 2022, North America consistently held the highest share of both revenue and order volume, with particularly strong performance in Q4 due to seasonal patterns. While revenue and volume remained solid, average order value declined by 7%, indicates a shift toward a broader customer base making smaller, more frequent purchases.
   
-* In 2022, revenue and average order value declined across all regions. However, Asia-Pacific maintained the highest AOV at $241, which is approximately 35% higher than Latin America, the region with the lowest average.
+* In 2022, both average order value and revenue declined across all regions. However, Asia-Pacific maintained the highest AOV at $241, which is approximately 35% higher than Latin America, the region with the lowest performer.
   
-* In Q4 2022, Europe, the Middle East, and Africa experienced a significant surge in order volume share, increasing from 26% to 33% quarter-over-quarter, highlighting robust regional sales performance.
+* In Q4 2022, Europe, the Middle East, and Africa experienced a significant surge in order volume share, increasing from 26% to 33% quarter-over-quarter, highlighting robust seasonal demand and regional sales performance.
 
 ![sales by regions](https://github.com/user-attachments/assets/535e2f32-9bf5-4b47-82db-1033ba2b65ca)
 
 
 # Recommendations:
 
-* With 85% of orders and 70% of revenue coming from just three products, diversifying the product portfolio is crucial. Expanding the accessory category with new product lines, particularly Apple charging cables, would provide upsell opportunities.
+* With 70% of orders and 86% of revenue coming from just three products, diversifying the product category is crucial to reduce business risk. Expanding the accessory category with new, high-demand product lines, particularly Apple charging cables, would provide upsell opportunities and support sustainable revenue growth.
 
 * Capitalize on the growing share of Samsung accessories which 32% of order count in 2022 by introducing higher-cost Samsung products in already carried product categories such as laptops and cellphones.
 
-* Re-evaluate Bose SoundSport Headphones. As the product has never made up more than 1% of annual revenue, attempt to sell through the product by implementing bundle offers and flash sales to non-Apple ecosystem loyalty members before discontinuing.
+* Reevaluate and optimize Bose SoundSport Headphones. As the product has never made up more than 1% of annual revenue, attempt to sell through the product by implementing bundle offers and flash sales to non-Apple ecosystem loyalty members before discontinuing.
 
 * Despite the general sales success of Apple products, iPhone sales have been disappointingly low (1% of revenue in 2022). Enhancing marketing efforts to previous Apple product buyers could boost sales.
 
 * Continue and push forward the loyalty program. In order to convert non-members, consider offering a one-time sign-up discount paired with increased general marketing of membership benefits and savings. Focus targeted and personalized ads to previous customers, and utilize past order data to increase marketing efforts when previously purchased products may need replacing.
+
+* While the North America is the top-performer region, contributing 51% of total revenue and 47% of total orders, continuing to prioritize this key market, consider targeted marketing campaigns and bundled offers to encourage higher-value purchases and reverse the downward trend in AOV.
+
 
 # Assumptions and Caveats:
 
