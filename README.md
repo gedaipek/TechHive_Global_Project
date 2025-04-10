@@ -1,4 +1,4 @@
-                                  # TechHive Global Performance Analysis
+                             ## TechHive Global Performance Analysis
                                   
 ## Table of Contents
 - [Project Background](#project-background)
