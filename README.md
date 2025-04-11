@@ -55,7 +55,7 @@ TechHive's sales analysis of 180k records between 2019-2022 shows annual revenue
 
 Below is the sales overview page from the Power BI dashboard and more examples are included throughout the report. The entire interactive dashboard can be found here [link].
 
-![overview](https://github.com/user-attachments/assets/98de4e4d-678f-440a-8c5f-acc63f89b5fb)
+![sonpng](https://github.com/user-attachments/assets/2f565494-6909-49e0-bd5a-e82edc2c57aa)
 
 
 # Insights Deep Dive
