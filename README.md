@@ -99,7 +99,7 @@ Below is the sales overview page from the Power BI dashboard and more examples a
 * In 2022, despite a general downward trend in performance across both loyalty members and non-members, returning loyalty customers spent $30 more per order compared to non-members, contributing $2.7M in revenue. In contrast, non-members spent an average of $214 per order, resulting in $2.2M in total revenue. This highlights that even during periods of overall decline, the loyalty program continues to positively impact customer retention and spending behavior.
   
 
-![aov by loyalty](https://github.com/user-attachments/assets/a058da61-437a-4adb-8ed7-f79d4070cb3a)
+![4](https://github.com/user-attachments/assets/6a54b4f7-93cf-4ba9-8a85-c1fb36d0cba0)
 
 
 ### Regional Comparisons:
