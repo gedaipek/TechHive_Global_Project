@@ -85,7 +85,7 @@ Below is the sales overview page from the Power BI dashboard and more examples a
   
 * In the smarphone category, Apple Iphone generated under 1% of the company's total revenue and accounted for less than 1% of total orders between 2019 and 2022. In contrast, other Apple products such as the Airpods and Macbook Air together contributed over 50% of total revenue during the same period.
 
-![productlineson](https://github.com/user-attachments/assets/2a0d0954-c891-410c-af82-0a3454cc9aac)
+![3](https://github.com/user-attachments/assets/5e737f72-bb91-48da-8075-582cf65b8485)
 
 
 ### Loyalty Program Performance:
