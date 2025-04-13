@@ -51,7 +51,7 @@ Prior to beginning the analysis, a variety of checks were conducted to ensure da
 
 ### Overview of Findings
 
-TechHive's sales analysis of 180k records between 2019-2022 shows annual revenue stabilizing at around $7 million, with North America, Europe, The Middle East, and Africa contributing 85% of sales. Gaming Monitor, and Apple Airpods account for 65% of revenue. The company experienced strong growth that peaked in late 2020 with a 163% increase in revenue. However, the company’s sales have steadily declined afterward, with significant drops recorded in 2022. Key performance indicators show year over year decreases across the board: revenue fell by 46%, order volume by 40%, and average order value by 10%. While this sharp decline may reflect post-pandemic market normalization, the following sections will explore additional factors influencing sales performance and highlight key opportunity areas for improvement.
+TechHive's sales analysis of 108k records between 2019-2022 shows annual revenue stabilizing at around $7 million, with North America, Europe, The Middle East, and Africa contributing 85% of sales. In late 2020, the company experienced strong growth that peaked with a 163% increase in revenue. However, the company’s sales have steadily declined afterward, with significant drops recorded in 2022. Key performance indicators show year over year decreases across the board: revenue fell by 46%, order volume by 40%, and average order value by 10%. While this sharp decline may reflect post-pandemic market normalization, the following sections will explore additional factors influencing sales performance and highlight key opportunity areas for improvement.
 
 Below is the sales overview page from the Power BI dashboard and more examples are included throughout the report. The entire interactive dashboard can be found here [link].
 
@@ -61,13 +61,13 @@ Below is the sales overview page from the Power BI dashboard and more examples a
 # Insights Deep Dive
 ### Sales Trends and Growth Rates:
 
-* The company's sales peak in December 2020 with 4,005 total orders and $1,246,007 monthly revenue. This corresponds with the boom in economy-wide spending due to pandemic changing customer behavior. The company's sales peak in December 2020 with 4,005 total orders and $1,246,007 monthly revenue. This corresponds with the boom in economy-wide spending due to pandemic changing customer behavior.
+* The company's sales peak in December 2020 with 4,005 total orders and $1,246,007 monthly revenue. This corresponds with the boom in economy-wide spending due to pandemic changing customer behavior.
   
 * Starting from in April 2021, revenue declined on a year over year basis for 21 consecutive months. In October 2022, revenue hit a company lifetime low, with $178K, and 72% year over year decline. In the following months revenue recovered slightly, following spesific holiday seasonality patterns.
   
-* Despite the downward trend in 2022, the company's overall performance exceeds 2019 pre-pandemic level baseline in all three key indicator performance indicators. This is primarily due to the stronger 1Q22, which recorded revenue and order count well above the same period in 2020, up 37% and 23% respectively.
+* Despite the downward trend in 2022, the company's overall performance exceeds 2019 pre-pandemic level baseline in all three key indicator performance indicators. This is primarily due to the stronger 1Q22, which recorded revenue and order volume well above the same period in 2020, up 37% and 23% respectively.
   
-* Average order value increased only once in September 2022, this can be attributed to an increased share of high-cost laptop orders.
+* Average order value recorded a single increase in September 2022, which can be associated with an increased share of order volume toward premium products such as high-cost laptops.
 
 
 ![image](https://github.com/user-attachments/assets/89cead48-0e5f-4baf-92f5-9a373c187a4a)
