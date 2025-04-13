@@ -113,7 +113,7 @@ Below is the sales overview page from the Power BI dashboard and more examples a
   
 * In Q4 2022, Europe, the Middle East, and Africa experienced a significant surge in order volume share, increasing from 26% to 33% quarter-over-quarter, highlighting robust seasonal demand and regional sales performance.
 
-![sales by regions](https://github.com/user-attachments/assets/535e2f32-9bf5-4b47-82db-1033ba2b65ca)
+![Ekran görüntüsü 2025-04-13 001140](https://github.com/user-attachments/assets/cf421d16-1295-4dbb-9536-27571d998abd)
 
 
 # Recommendations:
