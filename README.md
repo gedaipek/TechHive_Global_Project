@@ -106,7 +106,7 @@ Below is the sales overview page from the Power BI dashboard and more examples a
 
 * North America is the company’s largest market, contributing 51% of total revenue and 47% of total order volume. It is followed by Europe, the Middle East, and Africa, accounting for 29% of revenue and 25% of orders, then Asia-Pacific with 12% of revenue and 10% of orders, and finally Latin America, contributing 6% of revenue and 0.06% of total order volume.
 
-* From 2019 to 2022, North America consistently held the highest share of both revenue and order volume, with particularly strong performance in Q4 due to seasonal patterns. While revenue and volume remained solid, average order value declined by 7%, indicates a shift toward a broader customer base making smaller, more frequent purchases.
+* Between 2019 and 2022, North America consistently led in both revenue and order volume, with Q4 peaks driven by seasonal trends. Despite its dominance, the region experienced a 7% decline in average order value, suggesting a shift toward a broader customer base making more frequent but lower-value purchases.
   
 * In 2022, both average order value and revenue declined across all regions. However, Asia-Pacific maintained the highest AOV at $241, which is approximately 35% higher than Latin America, the region with the lowest performer.
   
