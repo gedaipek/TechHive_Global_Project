@@ -135,8 +135,8 @@ Below is the sales overview page from the Power BI dashboard and more examples a
 
 Throughout the analysis, multiple assumptions were made to manage challenges with the data. These assumptions and caveats are noted below:
 
-* Assumption 1 (ex: missing country records were for customers based in the US, and were re-coded to be US citizens)
+* Because 3% of the purchase date column contained non-sensical dates, these were excluded from the analysis
   
-* Assumption 1 (ex: data for December 2021 was missing - this was imputed using a combination of historical trends and December 2020 data)
+* Approximately 27k (25%) of transactions have customer_ids not present in the customers table. This discrepancy suggests missing data or data entry errors, impacting SQL queries and resulting in NULLs when joining on customer_id.
   
-* Assumption 1 (ex: because 3% of the purchase date column contained non-sensical dates, these were excluded from the analysis)
+* 
