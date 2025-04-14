@@ -91,13 +91,13 @@ Below is the sales overview page from the Power BI dashboard and more examples a
 
 ### Loyalty Program Performance:
 
-* From 2019 to 2022, loyalty members contributed 36% of total revenue by spending an average of $244 per order, while non-members contributed 64% by spending $40 more per transaction on average.
+* From 2019 to 2022, loyalty members contributed 39% of total revenue by spending an average of $240 per order, while non-members contributed 61% by spending $40 more per transaction on average.
 
-* In 2020, this gap widened as non-loyalty members spent nearly $112 more per order than loyalty members and accounted for a 30% higher share of annual revenue.
+* In 2020, as non-loyalty members spent nearly $112 more per order than loyalty members and accounted for a 30% higher share of annual revenue.
 
-* In April 2022, the revenue share of loyalty members peaked at 67%. On an annual basis, loyalty members accounted for 62% of total revenue, up from 11% in 2019 and 33% in 2020.This growth reflects the increasing transactional value and economic contribution of the loyalty segment.
+* In April 2022, the revenue share of loyalty members peaked at 67%. On an annual basis, loyalty members accounted for 62% of total revenue, up from 8% in 2019 and 33% in 2020.This growth reflects the increasing transactional value and economic contribution of the loyalty segment.
 
-* In 2022, despite an overall decline in sales performance across both groups, returning loyalty customers spent $30 more per order compared to non-members, generating $2.7M in revenue. In contrast, non-members spent an average of $214 per order, resulting in $2.2M in total revenue. This indicates that even during periods of contraction, the loyalty program continues to drive stronger customer retention and spending.
+* In 2022, despite an overall decline in sales performance across both groups, returning loyalty customers spent $60 more per order than non-members, generating $2.7M in revenue. This indicates that even during periods of contraction, the loyalty program continues to drive stronger customer retention and spending.
   
 
 ![4](https://github.com/user-attachments/assets/6a54b4f7-93cf-4ba9-8a85-c1fb36d0cba0)
