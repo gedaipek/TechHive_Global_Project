@@ -91,13 +91,13 @@ Below is the sales overview page from the Power BI dashboard and more examples a
 
 ### Loyalty Program Performance:
 
-* From 2019 to 2022, loyalty members contributed 39% of total revenue by spending an average of $240 per order, while non-members contributed 61% by spending $40 more per transaction on average.
+* From 2019 to 2022, loyalty members contributed 39% of total revenue, with an average order value of $240. In contrast, non-members contributed 61%, spending $40 more per transaction on average.
 
-* In 2020, as non-loyalty members spent nearly $112 more per order than loyalty members and accounted for a 30% higher share of annual revenue.
+* Since it began in 2019, the loyalty program has consistently increased its impact over time. By April 2022, loyalty members reached a peak revenue share of 69%. On an annual basis, they accounted for 60% of total revenue in 2022, up from 11% in 2019, 33% in 2020, and 55% in 2021. This significant growth highlights the rising economic impact and transactional strength of the loyalty segment.
 
-* In April 2022, the revenue share of loyalty members peaked at 67%. On an annual basis, loyalty members accounted for 62% of total revenue, up from 8% in 2019 and 33% in 2020.This growth reflects the increasing transactional value and economic contribution of the loyalty segment.
+*In 2022,
 
-* In 2022, despite an overall decline in sales performance across both groups, returning loyalty customers spent $60 more per order than non-members, generating $2.7M in revenue. This indicates that even during periods of contraction, the loyalty program continues to drive stronger customer retention and spending.
+* In 2022, despite an overall decline in sales performance, returning loyalty customers maintained strong engagement spending $60 more per order than non-members and generating $2.7M in revenue. This underscores the program’s continued ability to drive retention and high-value purchasing, even during market downturns.
   
 
 ![4](https://github.com/user-attachments/assets/6a54b4f7-93cf-4ba9-8a85-c1fb36d0cba0)
@@ -124,11 +124,11 @@ Below is the sales overview page from the Power BI dashboard and more examples a
 
 * Reevaluate and optimize Bose SoundSport Headphones. As the product has never made up more than 1% of annual revenue, attempt to sell through the product by implementing bundle offers and flash sales to non-Apple ecosystem loyalty members before discontinuing.
 
-* Despite the general sales success of Apple products, iPhone sales have been disappointingly low (1% of revenue in 2022). Enhancing marketing efforts to previous Apple product buyers could boost sales.
+* Despite the general sales success of Apple products, iphone sales have been disappointingly low (1% of revenue in 2022). Enhancing marketing efforts to previous Apple product buyers could boost sales.
 
 * Continue and push forward the loyalty program. In order to convert non-members, consider offering a one-time sign-up discount paired with increased general marketing of membership benefits and savings. Focus targeted and personalized ads to previous customers, and utilize past order data to increase marketing efforts when previously purchased products may need replacing.
 
-* While the North America is the top-performer region, contributing 51% of total revenue and 47% of total orders, continuing to prioritize this key market, consider targeted marketing campaigns and bundled offers to encourage higher-value purchases and reverse the downward trend in AOV.
+* While the North America is the top-performer region, contributing 51% of total revenue and 47% of total orders, continuing to prioritize this key market, consider targeted marketing campaigns and bundled offers to encourage higher-value purchases and reverse the downward trend in average order value.
 
 
 # Assumptions and Caveats:
