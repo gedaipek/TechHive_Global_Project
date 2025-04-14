@@ -19,14 +19,14 @@
 
 
 # Project Background
-TechHive Global, US-based e-commerce company founded in 2018, specializes in selling popular electronics such as Apple, Samsung, and ThinkPad products worldwide through its website and mobile app.
+TechHive Global, US-based e-commerce company founded in 2018, specializes in selling popular electronics such as Apple, Samsung, and ThinkPad products worldwide via its website and mobile app.
 
 The company holds a significant amount of data related to its sales, marketing efforts, operational efficiency, product portfolio, and customer loyalty program that has been underutilized. This project thoroughly analyzes and synthesizes that data to uncover actionable insights that drive strategic decisions and enhance TechHive Global’s competitive edge and overall success.
 
 Insights and recommendations are provided on the following key areas:
 
 - **Sales Trends and Growth Rates:** Evaluating historical sales patterns globally and by region, focusing on revenue, order volume, and average order value.
-- **Key Product Performance:** An analysis of various of product lines to understand their impacts on revenue
+- **Key Product Performance:** An analysis of various of product lines to understand their impact on revenue
 - **Loyalty Program Performance:** Evaluating the impact of the loyalty program on customer retention and sales.
 - **Regional Comparisons:** Comparing performance across regions in terms of sales and order volume.
 
