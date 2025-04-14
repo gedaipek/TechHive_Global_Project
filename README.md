@@ -91,13 +91,13 @@ Below is the sales overview page from the Power BI dashboard and more examples a
 
 ### Loyalty Program Performance:
 
-* Loyalty members contributed 36% of total revenue by spending an average of $244 per order, while non-members contributed 64% by spending $40 more per transaction on average.
-  
-* In 2019, loyalty members spent an average of $206 per order, generating around $390K in revenue. In contrast, non-members spent $232 per order, resulting in an 11% higher contribution to revenue compared to loyalty members.
+* From 2019 to 2022, loyalty members contributed 36% of total revenue by spending an average of $244 per order, while non-members contributed 64% by spending $40 more per transaction on average.
 
-* In 2021, the order volume share of loyalty members increased by 52%, driven by the acquisition of new members and repeat purchases from existing ones. Despite having a similar average order value of $260, non-members contributed $4.4M to total revenue. This contrast highlights the growing transactional value and economic impact of the loyalty segment.
-  
-* In 2022, despite a general downward trend in performance across both loyalty members and non-members, returning loyalty customers spent $30 more per order compared to non-members, contributing $2.7M in revenue. In contrast, non-members spent an average of $214 per order, resulting in $2.2M in total revenue. This highlights that even during periods of overall decline, the loyalty program continues to positively impact customer retention and spending behavior.
+* In 2020, this gap widened as non-loyalty members spent nearly $112 more per order than loyalty members and accounted for a 30% higher share of annual revenue.
+
+* In April 2022, the revenue share of loyalty members peaked at 67%. On an annual basis, loyalty members accounted for 62% of total revenue, up from 11% in 2019 and 33% in 2020.This growth reflects the increasing transactional value and economic contribution of the loyalty segment.
+
+* In 2022, despite an overall decline in sales performance across both groups, returning loyalty customers spent $30 more per order compared to non-members, generating $2.7M in revenue. In contrast, non-members spent an average of $214 per order, resulting in $2.2M in total revenue. This indicates that even during periods of contraction, the loyalty program continues to drive stronger customer retention and spending.
   
 
 ![4](https://github.com/user-attachments/assets/6a54b4f7-93cf-4ba9-8a85-c1fb36d0cba0)
