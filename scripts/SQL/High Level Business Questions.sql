@@ -16,10 +16,10 @@ SELECT 'Total Nr. Customers ' as measure_name, COUNT(DISTINCT customer_id) AS me
 -- What are the seasonal trends in sales? Do we observe recurring peaks or drops by month/year?
 
 SELECT
-	YEAR(purchase_ts) AS order_year,
-	SUM(usd_price) AS revenue,
-	COUNT(DISTINCT id) AS order_volume,
-	AVG(usd_price) AS avg_order_value
+YEAR(purchase_ts) AS order_year,
+SUM(usd_price) AS revenue,
+COUNT(DISTINCT id) AS order_volume,
+AVG(usd_price) AS avg_order_value
 FROM TechHive_cleaned.dbo.orders
 WHERE purchase_ts IS NOT NULL
 GROUP BY YEAR(purchase_ts)
@@ -757,7 +757,7 @@ FROM product_performance
 WHERE region = 'EMEA' AND product_name = '27in 4K gaming monitor'
 ORDER BY total_revenue DESC
 
--- What is the average quarterly order count and total sales for Macbooks sold in North America? (i.e. “For North America Macbooks, average of X units sold per quarter and Y in dollar sales per quarter”)
+-- What is the average quarterly order count and total sales for Macbooks sold in North America? (i.e. Â“For North America Macbooks, average of X units sold per quarter and Y in dollar sales per quarterÂ”)
 
 WITH quarterly_metrics AS (
   SELECT
