@@ -73,8 +73,6 @@ cleaned_orders AS (
   FROM cleaned_product AS cp
 ),
 
--- 3. Clean Customer Information and Handle NULLs
-
 cleaned_customers AS (
   SELECT
     c.customer_id,
@@ -86,9 +84,8 @@ cleaned_customers AS (
   FROM Techhive.dbo.customers AS c
 ),
 
--- ------------------------------------------------------------------------------
 -- 4. Standardize Geographic Data (Region & Country)
--- ------------------------------------------------------------------------------
+  
 cleaned_geo_lookup AS (
   SELECT
     g.country,
@@ -100,8 +97,7 @@ cleaned_geo_lookup AS (
   FROM Techhive.dbo.geo_lookup AS g
 ),
 
-
--- 5. Clean Order Status Information and Calculate Time Metrics
+-- 5. Handling invalid values
 
 cleaned_order_status AS (
   SELECT
