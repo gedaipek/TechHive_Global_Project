@@ -4,21 +4,21 @@
 
 WITH cleaned_product_info AS (
   SELECT
-    orders.customer_id,
-    orders.id AS order_id,
-    orders.purchase_ts AS purchase_date,
-    orders.product_id,
-    CASE WHEN LOWER(orders.product_name) LIKE '%gaming monitor%' THEN '27 inch Gaming Monitor' 
-    WHEN LOWER(orders.product_name) LIKE '%macbook%' THEN 'Apple Macbook Air Laptop'
-    WHEN LOWER(orders.product_name) LIKE '%thinkpad%' THEN 'Lenovo ThinkPad Laptop'
-    WHEN LOWER(orders.product_name) LIKE '%bose%' THEN 'Bose Soundsport Headphones' 
-    ELSE orders.product_name 
-	END AS product_name,
-    UPPER(orders.currency) AS currency,
-	ISNULL(orders.local_price, 0) AS local_price,
-	ISNULL(orders.usd_price, 0) AS usd_price,
-    orders.purchase_platform
-  FROM TechHive.orders
+    customer_id,
+    id AS order_id,
+    purchase_ts AS purchase_date,
+    product_id,
+    CASE WHEN LOWER(product_name) LIKE '%gaming monitor%' THEN '27 inch Gaming Monitor' 
+    WHEN LOWER(product_name) LIKE '%macbook%' THEN 'Apple Macbook Air Laptop'
+    WHEN LOWER(product_name) LIKE '%thinkpad%' THEN 'Lenovo ThinkPad Laptop'
+    WHEN LOWER(product_name) LIKE '%bose%' THEN 'Bose Soundsport Headphones' 
+    ELSE product_name 
+    END AS product_name,
+    UPPER(currency) AS currency,
+    local_price,
+    usd_price,
+    purchase_platform
+  FROM TechHive.dbo.orders
 ),
 
 -- After cleaning product_name, adding product category, brand name and time features
