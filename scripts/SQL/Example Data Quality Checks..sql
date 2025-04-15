@@ -1,6 +1,6 @@
- /*==============================================================================
- Utilizing the dataset for the first time by performing essential checks to identify data inconsistencies, missing values, incorrect records, and time ranges.
-==============================================================================*/
+==============================================================================
+-- Utilizing the dataset for the first time by performing essential checks to identify data inconsistencies, missing values, incorrect records, and time ranges.
+==============================================================================
 
 -- 1. DUPLICATE CHECKS
 
