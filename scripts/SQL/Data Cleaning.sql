@@ -84,7 +84,7 @@ cleaned_customers AS (
   FROM Techhive.dbo.customers AS c
 ),
 
--- 4. Standardize Region & Country
+-- 4. Standardize and handling null values
   
 cleaned_geo_lookup AS (
   SELECT
