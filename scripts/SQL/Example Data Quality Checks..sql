@@ -1,6 +1,6 @@
--- ==============================================================================
--- Utilizing the dataset for the first time by performing essential checks to identify data inconsistencies, missing values, incorrect records, and time ranges.
--- ==============================================================================
+ /*==============================================================================
+ Utilizing the dataset for the first time by performing essential checks to identify data inconsistencies, missing values, incorrect records, and time ranges.
+==============================================================================*/
 
 -- 1. DUPLICATE CHECKS
 
@@ -35,11 +35,8 @@ FROM TechHive.dbo.orders;
 
 -- 3. DISTINCT VALUE CHECKS
 SELECT DISTINCT product_name FROM TechHive.dbo.orders ORDER BY 1;
-
 SELECT DISTINCT purchase_platform FROM TechHive.dbo.orders ORDER BY 1;
-
 SELECT DISTINCT country_code FROM TechHive.dbo.customers;
-
 SELECT DISTINCT loyalty_program FROM TechHive.dbo.customers ORDER BY 1;
 
 -- 4. DATE RANGE & TIME DIMENSIONS EXPLORATION
@@ -62,7 +59,6 @@ SELECT
 FROM TechHive.dbo.order_status;
 
 -- 4.3 Purchase, Shipping, Delivery, Refund, and Account Created Date Ranges To Understand Time Frames
-
 SELECT
     MIN(purchase_ts) AS earliest_order_date,
     MAX(purchase_ts) AS latest_order_date,
