@@ -84,11 +84,13 @@ cleaned_customers AS (
   FROM Techhive.dbo.customers AS c
 ),
 
--- 4. Standardize Geographic Data (Region & Country)
+-- 4. Standardize Region & Country
   
 cleaned_geo_lookup AS (
   SELECT
-    g.country,
+    CASE WHEN g.country IS NULL THEN 'unknown'
+         ELSE g.country
+    END AS country,
     CASE 
       WHEN UPPER(g.country) = 'EU' THEN 'EMEA'
       WHEN UPPER(g.country) = 'A1' THEN 'Unknown'
