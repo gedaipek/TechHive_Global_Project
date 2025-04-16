@@ -29,7 +29,7 @@ Insights and recommendations are provided on the following key areas:
 - **Loyalty Program Performance:** Evaluating the impact of the loyalty program on customer retention and sales.
 - **Regional Comparisons:** Comparing performance across regions in terms of sales and order volume.
 
-The SQL queries used to inspect and clean the data for this analysis can be found here [link].
+The SQL queries used to inspect and clean the data for this analysis can be found here [scripts/SQL/Data Cleaning.sql].
 
 Targed SQL queries regarding various business questions can be found here [scripts/SQL/EDA(Exploratry].
 
