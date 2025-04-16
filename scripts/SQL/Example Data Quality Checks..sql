@@ -1,6 +1,23 @@
-==============================================================================
--- Utilizing the dataset for the first time by performing essential checks to identify data inconsistencies, missing values, incorrect records, and time ranges.
-==============================================================================
+/*
+===============================================================================
+Example of Initial Data Quality Checks
+===============================================================================
+Purpose:
+    This section is dedicated to performing essential data quality checks during 
+    the first-time use of the dataset. The goal is to identify and document any 
+    data inconsistencies, missing or null values, incorrect or outlier records, 
+    and evaluate the validity of time ranges.
+
+    These checks help ensure the reliability and integrity of the dataset before 
+    proceeding with further processing, transformation, or analysis.
+
+Usage:
+    - Run this step after initial ingestion to understand the raw data quality.
+    - Use the insights gained to define cleaning rules and validation criteria 
+      for downstream processing.
+===============================================================================
+*/
+
 
 -- 1. DUPLICATE CHECKS
 
