@@ -29,9 +29,9 @@ Insights and recommendations are provided on the following key areas:
 - **Loyalty Program Performance:** Evaluating the impact of the loyalty program on customer retention and sales.
 - **Regional Comparisons:** Comparing performance across regions in terms of sales and order volume.
 
-The SQL queries used to inspect and clean the data for this analysis can be found [here]
+The SQL queries used to inspect and clean the data for this analysis can be found [here](https://github.com/gedaipek/SQL-project/blob/main/scripts/SQL/Data%20Cleaning.sql).
 
-Targed SQL queries regarding various business questions can be found here [scripts/SQL/EDA(Exploratry].
+Targed SQL queries regarding various business questions can be found [here](https://github.com/gedaipek/SQL-project/blob/main/scripts/SQL/Targeted%20Business%20Questions.sql).
 
 # Data Structure & Initial Checks
 
@@ -39,8 +39,7 @@ TechHive Global's database structure as seen below consists of four tables: orde
 
 ![erdgithub](https://github.com/user-attachments/assets/4c23ec7d-4d12-4e1c-9db2-219a34f194f9)
 
-Prior to beginning the analysis, a variety of checks were conducted to ensure data quality and to become familiar with the dataset. The SQL queries utilized to inspect and perform quality control checks can be found [here](https://github.com/gedaipek/SQL-project/blob/main/scripts/SQL/Example%20Data%20Quality%20Checks.sql).
-
+Prior to beginning the analysis, a variety of checks were conducted to ensure data quality and to become familiar with the dataset. The SQL queries utilized to inspect and perform quality control checks can be found [here](https://github.com/gedaipek/SQL-project/blob/main/scripts/SQL/Example%20Data%20Quality%20Checks..sql).
 
 
 # Executive Summary
