@@ -93,9 +93,7 @@ Below is the sales overview page from the Power BI dashboard and more examples a
 
 * From 2019 to 2022, loyalty members contributed 39% of total revenue, with an average order value of $240. In contrast, non-members contributed 61%, spending $40 more per transaction on average.
 
-* Since it began in 2019, the loyalty program has consistently increased its impact over time. By April 2022, loyalty members reached a peak revenue share of 69%. On an annual basis, they accounted for 60% of total revenue in 2022, up from 11% in 2019, 33% in 2020, and 55% in 2021. This significant growth highlights the rising economic impact and transactional strength of the loyalty segment.
-
-*In 2022,
+* The loyalty program, introduced in 2019, has shown promising growth potential. By April 2022, loyalty members reached a peak revenue share of 69%. On an annual basis, they accounted for 60% of total revenue in 2022, up from 11% in 2019, 33% in 2020, and 55% in 2021. This significant growth highlights the rising economic impact and transactional strength of the loyalty segment.
 
 * In 2022, despite an overall decline in sales performance, returning loyalty customers maintained strong engagement spending $60 more per order than non-members and generating $2.7M in revenue. This underscores the program’s continued ability to drive retention and high-value purchasing, even during market downturns.
   
@@ -135,7 +133,7 @@ Below is the sales overview page from the Power BI dashboard and more examples a
 
 Throughout the analysis, multiple assumptions were made to manage challenges with the data. These assumptions and caveats are noted below:
 
-* Because 3% of the purchase date column contained non-sensical dates, these were excluded from the analysis
+* Approximately 3% of the entries in the purchase_date column contained invalid or non-sensical dates. These records were excluded from the analysis to maintain data accuracy.
   
 * Approximately 27k (25%) of transactions have customer_ids not present in the customers table. This discrepancy suggests missing data or data entry errors, impacting SQL queries and resulting in NULLs when joining on customer_id.
   
