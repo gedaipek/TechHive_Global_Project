@@ -1,13 +1,20 @@
--- ==============================================================================
--- Data Preparation: Cleaning, Trasforming, and Organizing Data for analysis in SQL Server
--- ==============================================================================
--- In this script:
---   - We clean inconsistent product names
---   - Add standardized product category and brand features
---   - Extract useful time features from timestamps
---   - Clean customer and region info
---   - Add refund and shipping performance metrics
--- ==============================================================================
+/*
+===============================================================================
+Data Preparation: Cleaning, Transforming, and Organizing Data for Analysis
+===============================================================================
+Purpose:
+    This script prepares raw TechHive data for analysis by:
+      - Cleaning inconsistent product names
+      - Adding product category and brand info
+      - Extracting time features (year, month, order number)
+      - Standardizing customer and region data
+      - Calculating refund and shipping performance metrics
+
+Usage:
+    Run this after initial data quality checks to produce a clean,
+    enriched dataset for reporting and analysis.
+===============================================================================
+*/
 
 -- 1. Clean and Standardize Product Information
 
