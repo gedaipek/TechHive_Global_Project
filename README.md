@@ -64,7 +64,7 @@ Below is the sales overview page from the Power BI dashboard and more examples a
   
 * Average order value recorded a single increase in September 2022, which can be associated with an increased share of order volume toward premium products such as high-cost laptops.
 
-![B](https://github.com/user-attachments/assets/0526b1dc-cb71-4321-bcb6-285bb06fdcc7)
+![ekleEkran görüntüsü 2025-04-15 203008](https://github.com/user-attachments/assets/b3944d4e-3650-4ff7-905a-fdd861ee8e33)
 
 
 ### Key Product Level Performance:
@@ -79,9 +79,7 @@ Below is the sales overview page from the Power BI dashboard and more examples a
   
 * In the smarphone category, Apple Iphone generated under 1% of the company's total revenue and accounted for less than 1% of total orders between 2019 and 2022. In contrast, other Apple products such as the Airpods and Macbook Air together contributed over 50% of total revenue during the same period.
 
-![3](https://github.com/user-attachments/assets/7e3fb7a0-a177-415b-8b79-083959e2fc55)
-
-![son3](https://github.com/user-attachments/assets/56319341-d876-40f7-a7bc-869a03e4877e)
+![paylaşEkran görüntüsü 2025-04-15 204554](https://github.com/user-attachments/assets/07fc019b-3c31-4a69-85e7-38834c146919)
 
 
 ### Loyalty Program Performance:
