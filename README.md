@@ -17,7 +17,6 @@
 - [Assumptions and Caveats](#assumptions-and-caveats)
 
 
-
 # Project Background
 TechHive Global, US-based e-commerce company founded in 2018, specializes in selling popular electronics such as Apple, Samsung, and ThinkPad products worldwide via its website and mobile app.
 
@@ -33,8 +32,6 @@ Insights and recommendations are provided on the following key areas:
 The SQL queries used to inspect and clean the data for this analysis can be found here [link].
 
 Targed SQL queries regarding various business questions can be found here [scripts/SQL/EDA(Exploratry].
-
-
 
 # Data Structure & Initial Checks
 
@@ -125,14 +122,3 @@ Below is the sales overview page from the Power BI dashboard and more examples a
 * Continue and push forward the loyalty program. In order to convert non-members, consider offering a one-time sign-up discount paired with increased general marketing of membership benefits and savings. Focus targeted and personalized ads to previous customers, and utilize past order data to increase marketing efforts when previously purchased products may need replacing.
 
 * While the North America is the top-performer region, contributing 51% of total revenue and 47% of total orders, continuing to prioritize this key market, consider targeted marketing campaigns and bundled offers to encourage higher-value purchases and reverse the downward trend in average order value.
-
-
-# Assumptions and Caveats:
-
-Throughout the analysis, multiple assumptions were made to manage challenges with the data. These assumptions and caveats are noted below:
-
-* Approximately 3% of the entries in the purchase_date column contained invalid or non-sensical dates. These records were excluded from the analysis to maintain data accuracy.
-  
-* Approximately 27k (25%) of transactions have customer_ids not present in the customers table. This discrepancy suggests missing data or data entry errors, impacting SQL queries and resulting in NULLs when joining on customer_id.
-  
-* 
