@@ -31,7 +31,7 @@ Insights and recommendations are provided on the following key areas:
 
 The SQL queries used to inspect and clean the data for this analysis can be found [here](https://github.com/gedaipek/SQL-project/blob/main/scripts/SQL/Data%20Cleaning.sql).
 
-Targed SQL queries regarding various business questions can be found [here](https://github.com/gedaipek/SQL-project/blob/main/scripts/SQL/Targeted%20Business%20Questions.sql).
+Targeted SQL queries regarding various business questions can be found [here](https://github.com/gedaipek/SQL-project/blob/main/scripts/SQL/Targeted%20Business%20Questions.sql).
 
 # Data Structure & Initial Checks
 
@@ -56,11 +56,11 @@ Below is the sales overview page from the Power BI dashboard and more examples a
 # Insights Deep Dive
 ### Sales Trends and Growth Rates:
 
-* The company's sales peak in December 2020 with 4,005 total orders and $1,246,007 monthly revenue. This corresponds with the boom in economy-wide spending due to pandemic changing customer behavior.
+* The company's sales peak in December 2020 with 4,005 total orders and $1,246,007 monthly revenue. This corresponds with the boom in economy-wide spending due to the pandemic changing customer behavior.
   
-* Starting from in April 2021, revenue declined on a year over year basis for 21 consecutive months. In October 2022, revenue hit a company lifetime low, with $178K, and 72% year over year decline. In the following months revenue recovered slightly, following spesific holiday seasonality patterns.
+* Starting in April 2021, revenue declined on a year-over-year basis for 21 consecutive months. In October 2022, revenue hit a company lifetime low, with $178K, and 72% year over year decline. In the following months revenue recovered slightly, following spesific holiday seasonality patterns.
   
-* Despite the downward trend in 2022, the company's overall performance exceeds 2019 pre-pandemic level baseline in all three key indicator performance indicators. This is primarily due to the stronger 1Q22, which recorded revenue and order volume well above the same period in 2020, up 37% and 23% respectively.
+* Despite the downward trend in 2022, the company's overall performance exceeds the 2019 pre-pandemic baseline in all three key performance indicators. This is primarily due to the stronger 1Q22, which recorded revenue and order volume well above the same period in 2020, up 37% and 23% respectively.
   
 * Average order value recorded a single increase in September 2022, which can be associated with an increased share of order volume toward premium products such as high-cost laptops.
 
@@ -77,7 +77,7 @@ Below is the sales overview page from the Power BI dashboard and more examples a
 
 * The accessories category has grown in its share of total orders, increasing from 21% to 32% in 2022. However, it still contributes less than 4% to overall revenue, indicating that while accessories are moving in volume, they generate limited financial impact.
   
-* In the smarphone category, Apple Iphone generated under 1% of the company's total revenue and accounted for less than 1% of total orders between 2019 and 2022. In contrast, other Apple products such as the Airpods and Macbook Air together contributed over 50% of total revenue during the same period.
+* In the smartphone category, Apple Iphone generated under 1% of the company's total revenue and accounted for less than 1% of total orders between 2019 and 2022. In contrast, other Apple products such as the Airpods and Macbook Air together contributed over 50% of total revenue during the same period.
 
 ![paylaşEkran görüntüsü 2025-04-15 204554](https://github.com/user-attachments/assets/07fc019b-3c31-4a69-85e7-38834c146919)
 
