@@ -1,6 +1,6 @@
 /*
 ===============================================================================
-Business Performance Analysis Report
+Targeted Business Questions
 ===============================================================================
 Scope:
     Key metrics and insights on revenue, growth, loyalty programs, products, 
