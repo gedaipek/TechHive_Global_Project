@@ -20,16 +20,16 @@ GO
 CREATE TABLE TechHive_cleaned.dbo.orders (
 	customer_id			nvarchar(50),
 	order_id			nvarchar(50),
-	purchase_date		date,
+	purchase_date		        date,
 	product_id			nvarchar(50),
-	product_name		nvarchar(100),
+	product_name		        nvarchar(100),
 	currency			nvarchar(10),
 	local_price			float,
 	usd_price			float,
-	purchase_platform	nvarchar(50),
+	purchase_platform	        nvarchar(50),
 	brand_name			nvarchar(50),
-	product_category	nvarchar(50),
-	customer_order_number int,
+	product_category	        nvarchar(50),
+	customer_order_number           int,
 	year				int,
 	month				nvarchar(20)
 );
@@ -40,12 +40,12 @@ IF OBJECT_ID('TechHive_cleaned.dbo.customers', 'U') IS NOT NULL
 GO
 
 CREATE TABLE TechHive_cleaned.dbo.customers (
-	customer_id				 nvarchar(50),
+	customer_id			 nvarchar(50),
 	marketing_channel		 nvarchar(50),
 	account_creation_method  nvarchar(50),
 	country_code			 nvarchar(50),
 	loyalty_program			 bit,
-	created_on				 date
+	created_on			 date
 );
 GO
 
@@ -55,7 +55,7 @@ GO
 
 CREATE TABLE TechHive_cleaned.dbo.order_status (
 	order_id			nvarchar(50),
-	purchase_date		date,
+	purchase_date		        date,
 	shipping_date		date,
 	delivery_date		date,
 	refund_date			date,
