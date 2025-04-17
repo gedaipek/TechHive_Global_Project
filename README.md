@@ -54,7 +54,7 @@ Prior to beginning the analysis, a variety of checks were conducted to ensure da
 
 * The loyalty program, introduced in 2019, has shown promising growth potential. While non members have historically spend more
 
-Below is the sales overview page from the Power BI dashboard and more examples are included throughout the report. The entire interactive dashboard can be found here [link].
+Below is the sales overview page from the Power BI dashboard and more examples are included throughout the report. The entire interactive dashboard can be found here [here].
 
 ![Ekran görüntüsü 2025-04-17 024149](https://github.com/user-attachments/assets/70987456-a426-46d9-99b4-e940bcc14032)
 
@@ -96,7 +96,7 @@ Below is the sales overview page from the Power BI dashboard and more examples a
 
 * In 2022, despite an overall decline in sales performance, **returning loyalty members maintained strong engagement spending $60 more per order than non-members and generating $2.7M in revenue.** This underscores the program’s continued ability to drive retention and high-value purchasing, even during market downturns.
   
-![4](https://github.com/user-attachments/assets/6a54b4f7-93cf-4ba9-8a85-c1fb36d0cba0)
+![Ekran görüntüsü 2025-04-17 030726](https://github.com/user-attachments/assets/2063657f-5d1a-4894-89e7-158175495536)
 
 
 ### Regional Comparisons:
