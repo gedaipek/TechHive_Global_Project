@@ -24,9 +24,9 @@ The company holds a significant amount of data related to its sales, marketing e
 
 Insights and recommendations are provided on the following key areas:
 
-- **Sales Trends and Growth Rates:** Evaluating historical sales patterns globally and by region, focusing on revenue, order volume, and average order value.
+- **Sales Trends and Growth Rates:** Evaluating historical sales patterns globally and by region, focusing on order volume, average order value and revenue.
 - **Key Product Performance:** An analysis of various of product lines to understand their impact on revenue
-- **Loyalty Program Performance:** Evaluating the impact of the loyalty program on customer retention and sales.
+- **Loyalty Program Performance:** Evaluating the impact of the loyalty program on sales and customer retention.
 - **Regional Comparisons:** Comparing performance across regions in terms of sales and order volume.
 
 The SQL queries used to inspect and clean the data for this analysis can be found [here](https://github.com/gedaipek/SQL-project/blob/main/scripts/SQL/Data%20Cleaning.sql).
@@ -46,11 +46,15 @@ Prior to beginning the analysis, a variety of checks were conducted to ensure da
 
 ### Overview of Findings
 
-From 2019 to 2022, TechHive’s average number of sales per year was 27,000, generating $7 million in annual revenue with an average order value of $260. In 2020, the company recorded its highest growth rate, with more than double the number of sales and total sales revenue than 2019. MacBook Air sales were the main product driver of this spike, growing 384% from 2019 to 2020. However, this upward trend reversed in the following years, with significant drops recorded in 2022. Key performance indicators show year over year declines across the board: revenue fell by 46%, order volume by 40%, and average order value by 10%. While this sharp decline may reflect post-pandemic market normalization, the following sections will explore additional factors influencing sales performance and highlight key opportunity areas for improvement.
+**TechHive Global's** total sales **from 2019 to 2022**  reached **$28M**, with **108K** total orders. The company's average order value across all years stands at **$260** per order. 
+
+* In **2020**, the company recorded its highest growth, with more than double the number of sales (34K orders) and total sales revenue ($10M) than 2019. **MacBook Air** sales were the main product driver of this spike, growing **384%** from 2019 to 2020.
+
+* However, since 2020, this upward trend reversed in the following years, with significant drops recorded in **2022**. Key performance indicators show year over year declines across the board: revenue fell by **46%**, order volume by **40%**, and average order value by **10%**. While this sharp decline may reflect post-pandemic market normalization, the following sections will explore additional factors influencing sales performance and highlight key opportunity areas for improvement.
 
 Below is the sales overview page from the Power BI dashboard and more examples are included throughout the report. The entire interactive dashboard can be found here [link].
 
-![1 192240](https://github.com/user-attachments/assets/7b8d7d66-3f3c-4c47-9810-31fb69bd97c9)
+![Ekran görüntüsü 2025-04-16 171440](https://github.com/user-attachments/assets/1946e3af-e417-46e4-a919-34c82cfe5932)
 
 
 # Insights Deep Dive
@@ -69,11 +73,11 @@ Below is the sales overview page from the Power BI dashboard and more examples a
 
 ### Key Product Level Performance:
 
-* 86% of the TechHive’s total revenue is concentrated in three products, Gaming Monitor which holds the highest individual revenue share at 35%, Apple Airpods, and Macbook Air Laptop. These three products have generated 75,000 orders, representing 70% of total order volume, indicating a high dependency on a narrow product assortment.
+* 86% of the TechHive’s total revenue is concentrated in three products, Gaming Monitor which holds the highest individual revenue share at 35%, Apple AirPods, and MacBook Air Laptop. These three products have generated 75,000 orders, representing 70% of total order volume, indicating a high dependency on a narrow product assortment.
  
-* In 2022, 85% of the company's total orders comes from just three products, Apple Airpods, Gaming Monitor, and Macbook Air Laptop. These products accounted for $3.96M in revenue in 2022, 79% of the company's total revenue.
+* In 2022, 85% of the company's total orders comes from just three products, Apple AirPods, Gaming Monitor, and MacBook Air Laptop. These products accounted for $3.96M in revenue in 2022, 79% of the company's total revenue.
   
-* In the headphones category, the Bose Soundsport Headphones have underperformed, contributing to less than 1% of total revenue and orders despite being, on average, $40 cheaper than the well-performing Apple Airpods.
+* In the headphones category, the Bose SoundSport Headphones have underperformed, contributing to less than 1% of total revenue and orders despite being, on average, $40 cheaper than the well-performing Apple Airpods.
 
 * The accessories category has grown in its share of total orders, increasing from 21% to 32% in 2022. However, it still contributes less than 4% to overall revenue, indicating that while accessories are moving in volume, they generate limited financial impact.
   
@@ -115,8 +119,8 @@ Below is the sales overview page from the Power BI dashboard and more examples a
 
 * Reevaluate and optimize Bose SoundSport Headphones. As the product has never made up more than 1% of annual revenue, attempt to sell through the product by implementing bundle offers and flash sales to non-Apple ecosystem loyalty members before discontinuing.
 
-* Despite the general sales success of Apple products, iphone sales have been disappointingly low (1% of revenue in 2022). Enhancing marketing efforts to previous Apple product buyers could boost sales.
+* Despite the general sales success of Apple products, iPhone sales have been disappointingly low (1% of revenue in 2022). Enhancing marketing efforts to previous Apple product buyers could boost sales.
 
 * Continue and push forward the loyalty program. In order to convert non-members, consider offering a one-time sign-up discount paired with increased general marketing of membership benefits and savings. Focus targeted and personalized ads to previous customers, and utilize past order data to increase marketing efforts when previously purchased products may need replacing.
 
-* While the North America is the top-performer region, contributing 51% of total revenue and 47% of total orders, continuing to prioritize this key market, consider targeted marketing campaigns and bundled offers to encourage higher-value purchases and reverse the downward trend in average order value.
+* While North America is the top-performing region, contributing 51% of total revenue and 47% of total orders, continuing to prioritize this key market, consider targeted marketing campaigns and bundled offers to encourage higher-value purchases and reverse the downward trend in average order value.
