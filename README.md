@@ -50,7 +50,9 @@ Prior to beginning the analysis, a variety of checks were conducted to ensure da
 
 * In **2020**, the company recorded its highest growth, with more than double the number of sales (34K orders) and total sales revenue ($10M) than 2019. **MacBook Air** sales were the main product driver of this spike, growing **384%** from 2019 to 2020.
 
-* However, since 2020, this upward trend reversed in the following years, with significant drops recorded in **2022**. Key performance indicators show year over year declines across the board: revenue fell by **46%**, order volume by **40%**, and average order value by **10%**. While this sharp decline may reflect post-pandemic market normalization, the following sections will explore additional factors influencing sales performance and highlight key opportunity areas for improvement.
+* However, since 2020, this upward trend reversed in the following years, with significant drops recorded in **2022**. Key performance indicators show year over year declines across the board: revenue fell by **46%**, order volume by **40%**, and average order value by **10%**.
+
+*   While this sharp decline may reflect post-pandemic market normalization, the following sections will explore additional factors influencing sales performance and highlight key opportunity areas for improvement.
 
 Below is the sales overview page from the Power BI dashboard and more examples are included throughout the report. The entire interactive dashboard can be found here [link].
 
@@ -60,11 +62,11 @@ Below is the sales overview page from the Power BI dashboard and more examples a
 # Insights Deep Dive
 ### Sales Trends and Growth Rates:
 
-* The company's sales peak in December 2020 with 4,005 total orders and $1,246,007 monthly revenue. This corresponds with the boom in economy-wide spending due to the pandemic changing customer behavior.
+* **The company experienced a significant spike in sales in December 2020 with 4,005 total orders and $1,250,007 in revenue.** This spike corresponds with the boom in economy-wide spending due to the pandemic changing customer behavior.
   
-* Starting in April 2021, revenue declined on a year-over-year basis for 21 consecutive months. In October 2022, revenue hit a company lifetime low, with $178K, and 72% year over year decline. In the following months revenue recovered slightly, following spesific holiday seasonality patterns.
+* Beginning in April 2021, TechHive experienced a consistent **year over year revenue decline for 21 consecutive months**, reflecting a market adjustment post-pandemic. In October 2022, revenue hit a company lifetime low of **$178K**, representing a **72%** year over year decrease. In the following months, revenue recovered slightly, following normal holiday seasonality patterns.
   
-* Despite the downward trend in 2022, the company's overall performance exceeds the 2019 pre-pandemic baseline in all three key performance indicators. This is primarily due to the stronger 1Q22, which recorded revenue and order volume well above the same period in 2020, up 37% and 23% respectively.
+* Despite the downward trend in 2022, the company's overall performance exceeds the 2019 pre-pandemic baseline in all three key performance indicators. This is primarily due to the stronger 1Q22, which recorded order volume and revenue well above the same period in 2020, with **order volume up 23% and revenue up 37%**.
   
 * Average order value recorded a single increase in September 2022, which can be associated with an increased share of order volume toward premium products such as high-cost laptops.
 
@@ -73,26 +75,26 @@ Below is the sales overview page from the Power BI dashboard and more examples a
 
 ### Key Product Level Performance:
 
-* 86% of the TechHive’s total revenue is concentrated in three products, Gaming Monitor which holds the highest individual revenue share at 35%, Apple AirPods, and MacBook Air Laptop. These three products have generated 75,000 orders, representing 70% of total order volume, indicating a high dependency on a narrow product assortment.
+* **86% of the TechHive’s total revenue is concentrated in three products**, Gaming Monitor which holds the highest individual revenue share at 35%, Apple AirPods, and MacBook Air Laptop. These three products have generated 75,000 orders, representing 70% of total order volume, indicating a high dependency on a narrow product assortment.
  
-* In 2022, 85% of the company's total orders comes from just three products, Apple AirPods, Gaming Monitor, and MacBook Air Laptop. These products accounted for $3.96M in revenue in 2022, 79% of the company's total revenue.
+* **In 2022**, **85% of the company's total orders comes from just three products**, Apple AirPods, Gaming Monitor, and MacBook Air Laptop. These products accounted for $3.96M in revenue in 2022, 79% of the company's total revenue.
   
 * In the headphones category, the Bose SoundSport Headphones have underperformed, contributing to less than 1% of total revenue and orders despite being, on average, $40 cheaper than the well-performing Apple Airpods.
 
-* The accessories category has grown in its share of total orders, increasing from 21% to 32% in 2022. However, it still contributes less than 4% to overall revenue, indicating that while accessories are moving in volume, they generate limited financial impact.
+* The accessories category has grown in its share of total orders, increasing from **21% to 32%** in 2022. However, it still contributes less than 4% to overall revenue, indicating that while accessories are moving in volume, they generate limited financial impact.
   
-* In the smartphone category, Apple Iphone generated under 1% of the company's total revenue and accounted for less than 1% of total orders between 2019 and 2022. In contrast, other Apple products such as the Airpods and Macbook Air together contributed over 50% of total revenue during the same period.
+* Between 2019 and 2022, Apple products **contributed to over 46% of total annual revenue on average**. However, this contribution was largely driven by high-performing products such as AirPods and the MacBook Air. In contrast, the iPhone’s contribution remained minimal, accounting for less than **1%** of both total orders and revenue per year, and revealing a notable performance gap within the brand’s product line.
 
 ![paylaşEkran görüntüsü 2025-04-15 204554](https://github.com/user-attachments/assets/07fc019b-3c31-4a69-85e7-38834c146919)
 
 
 ### Loyalty Program Performance:
 
-* From 2019 to 2022, loyalty members contributed 39% of total revenue, with an average order value of $240. In contrast, non-members contributed 61%, spending $40 more per transaction on average.
+* From 2019 to 2022, **loyalty members contributed 39% of total revenue**, with an average order value of **$240**. In contrast, **non members contributed 61%, spending $40 more per transaction on average**.
 
-* The loyalty program, introduced in 2019, has shown promising growth potential. By April 2022, loyalty members reached a peak revenue share of 69%. On an annual basis, they accounted for 60% of total revenue in 2022, up from 11% in 2019, 33% in 2020, and 55% in 2021. This significant growth highlights the rising economic impact and transactional strength of the loyalty segment.
+* The loyalty program, introduced in 2019, has shown promising growth potential. By April 2022, loyalty members reached a peak revenue share of 69%. **On an annual basis, they accounted for 60% of total revenue in 2022, up from 11% in 2019, 33% in 2020, and 55% in 2021**. This significant growth highlights the rising economic impact and transactional strength of the loyalty segment.
 
-* In 2022, despite an overall decline in sales performance, returning loyalty customers maintained strong engagement spending $60 more per order than non-members and generating $2.7M in revenue. This underscores the program’s continued ability to drive retention and high-value purchasing, even during market downturns.
+* In 2022, despite an overall decline in sales performance, **returning loyalty members maintained strong engagement spending $60 more per order than non-members and generating $2.7M in revenue.** This underscores the program’s continued ability to drive retention and high-value purchasing, even during market downturns.
   
 
 ![4](https://github.com/user-attachments/assets/6a54b4f7-93cf-4ba9-8a85-c1fb36d0cba0)
@@ -100,27 +102,27 @@ Below is the sales overview page from the Power BI dashboard and more examples a
 
 ### Regional Comparisons:
 
-* North America is the company’s largest market, contributing 51% of total revenue and 47% of total order volume. It is followed by Europe, the Middle East, and Africa, accounting for 29% of revenue and 25% of orders, then Asia-Pacific with 12% of revenue and 10% of orders, and finally Latin America, contributing 6% of revenue and 0.06% of total order volume.
+* **North America is the company’s largest market, contributing 51% of total revenue and 47% of total order volume.** It is followed by Europe, the Middle East, and Africa, accounting for 29% of revenue and 25% of orders, then Asia-Pacific with 12% of revenue and 10% of orders, and finally Latin America, contributing 6% of revenue and 0.06% of total order volume.
 
 * Between 2019 and 2022, North America consistently led in both revenue and order volume, with Q4 peaks driven by seasonal trends. Despite its dominance, the region experienced a 7% decline in average order value, suggesting a shift toward a broader customer base making more frequent but lower-value purchases.
   
-* In 2022, both average order value and revenue declined across all regions. However, Asia-Pacific maintained the highest AOV at $241, which is approximately 35% higher than Latin America, the region with the lowest performer.
+* In 2022, both average order value and revenue declined across all regions. However, **North America maintained the highest AOV at $242, which is 35% higher than Latin America, the region with the lowest performer.**
   
-* In Q4 2022, Europe, the Middle East, and Africa experienced a significant surge in order volume share, increasing from 26% to 33% quarter-over-quarter, highlighting robust seasonal demand and regional sales performance.
+* In Q4 2022, Europe, the Middle East, and Africa experienced a significant surge in order volume share, **increasing from 26% to 33% quarter-over-quarter**, highlighting robust seasonal demand and regional sales performance.
 
 ![Ekran görüntüsü 2025-04-13 001140](https://github.com/user-attachments/assets/cf421d16-1295-4dbb-9536-27571d998abd)
 
 
 # Recommendations:
 
-* With 70% of orders and 86% of revenue coming from just three products, diversifying the product category is crucial to reduce business risk. Expanding the accessory category with new, high-demand product lines, particularly Apple charging cables, would provide upsell opportunities and support sustainable revenue growth.
+* With 70% of orders and 86% of revenue coming from just three products, diversifying the product category is crucial to reduce depency and mitigate business risk. Expanding the accessory category with new, high-demand product lines such as Apple charging cables, would provide opporunuties for upselling and support sustainable revenue growth.
 
-* Capitalize on the growing share of Samsung accessories which 32% of order count in 2022 by introducing higher-cost Samsung products in already carried product categories such as laptops and cellphones.
+* Capitalize on the growing share of Samsung accessories, which accounted for 32% of order count in 2022, **by introducing higher-cost Samsung products in already carried product categories such as laptops and cellphones.**
 
-* Reevaluate and optimize Bose SoundSport Headphones. As the product has never made up more than 1% of annual revenue, attempt to sell through the product by implementing bundle offers and flash sales to non-Apple ecosystem loyalty members before discontinuing.
+* **Reevaluate the performance of Bose SoundSport Headphones.** Since the product has consistently accounted for less than 1% of annual revenue, consider selling through remaining stock by offering bundle deals and flash sales targeted at loyalty members who are not part of the Apple ecosystem before discontinuing it.
 
-* Despite the general sales success of Apple products, iPhone sales have been disappointingly low (1% of revenue in 2022). Enhancing marketing efforts to previous Apple product buyers could boost sales.
+* Despite the overall sales success of Apple products, iPhone sales have remained disappointingly low, contributing only 1% of revenue each year. **Enhancing marketing efforts targeted at previous Apple product buyers could boost Apple iPhone sales.**
 
-* Continue and push forward the loyalty program. In order to convert non-members, consider offering a one-time sign-up discount paired with increased general marketing of membership benefits and savings. Focus targeted and personalized ads to previous customers, and utilize past order data to increase marketing efforts when previously purchased products may need replacing.
+* **Continue and push forward the loyalty program.** In order to convert non-members, consider offering a one-time sign-up discount paired with increased general marketing of membership benefits and savings. Focus targeted and personalized ads on previous customers, and utilize past order data to increase marketing efforts when previously purchased products may need replacing.
 
-* While North America is the top-performing region, contributing 51% of total revenue and 47% of total orders, continuing to prioritize this key market, consider targeted marketing campaigns and bundled offers to encourage higher-value purchases and reverse the downward trend in average order value.
+* While North America is the top-performing region, contributing 51% of total revenue and 47% of total orders, continue to prioritize this key market. **Consider targeted marketing campaigns and bundled offers to encourage higher-value purchases and reverse the downward trend in average order value.**
