@@ -56,7 +56,7 @@ Prior to beginning the analysis, a variety of checks were conducted to ensure da
 
 Below is the sales overview page from the Power BI dashboard and more examples are included throughout the report. The entire interactive dashboard can be found here [link].
 
-![Ekran görüntüsü 2025-04-16 195902](https://github.com/user-attachments/assets/ef4ebca4-302f-40c7-87dc-b268d8f1ce6c)
+![Ekran görüntüsü 2025-04-17 012252](https://github.com/user-attachments/assets/03aca3c7-302a-4097-a13b-8aaa3f855e4b)
 
 
 # Insights Deep Dive
