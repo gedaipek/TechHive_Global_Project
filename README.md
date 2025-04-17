@@ -54,7 +54,7 @@ Prior to beginning the analysis, a variety of checks were conducted to ensure da
 
 * The loyalty program, introduced in 2019, has shown promising growth potential. While non members have historically spend more
 
-Below is the sales overview page from the Power BI dashboard and more examples are included throughout the report. The entire interactive dashboard can be found here [here].
+Below is the sales overview page from the Power BI dashboard and more examples are included throughout the report. The entire interactive dashboard can be found here [here](https://github.com/gedaipek/SQL-project/blob/main/docs/TechHive%20Power%20BI%20Dashboard.pbit).
 
 ![Ekran görüntüsü 2025-04-17 024149](https://github.com/user-attachments/assets/70987456-a426-46d9-99b4-e940bcc14032)
 
