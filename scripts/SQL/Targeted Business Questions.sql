@@ -28,8 +28,8 @@ SELECT 'Total Nr. Products' as measure_name, COUNT(product_id) AS measure_value 
 UNION ALL
 SELECT 'Total Nr. Customers ' as measure_name, COUNT(DISTINCT customer_id) AS measure_value FROM TechHive_cleaned.dbo.customers
 
--- 1. What are the overall trends in sales?
--- 1.1 What are the seasonal trends in sales? Do we observe recurring peaks or drops by month/year?
+--  What are the overall trends in sales?
+-- What are the seasonal trends in sales? Do we observe recurring peaks or drops by month/year?
 
 SELECT
 	YEAR(purchase_ts) AS order_year,
@@ -52,7 +52,7 @@ WHERE purchase_ts IS NOT NULL
 GROUP BY DATENAME(MONTH, purchase_ts), DATETRUNC(month, purchase_ts)
 ORDER BY SUM(usd_price) DESC
 
--- 1.2 Highest Share of sales in December 2020? Which products generate the highest revenue across different regions in December, and what their order volumes and aovs?
+-- Highest Share of sales in December 2020? Which products generate the highest revenue across different regions in December, and what their order volumes and aovs?
 
 SELECT
 	o.product_name,
@@ -71,7 +71,7 @@ WHERE purchase_ts >= '2020-12-01' AND purchase_ts < '2021-01-01'
 GROUP BY o.product_name, g.region, DATENAME(MONTH, o.purchase_ts), DATETRUNC(month, o.purchase_ts)
 ORDER BY o.product_name, SUM(o.usd_price) DESC
 
--- 1.3  Which products underperformed during the October 2022 revenue decline?
+-- Which products underperformed during the October 2022 revenue decline?
 
 SELECT 
     product_name,
@@ -84,7 +84,7 @@ GROUP BY product_name
 ORDER BY total_revenue ASC;
 
 
--- 1.4 Is our business growing or declining?
+-- Is our business growing or declining?
 
 SELECT
 	order_date,
@@ -102,9 +102,9 @@ WHERE DATETRUNC(year, purchase_ts) IS NOT NULL
 GROUP BY DATETRUNC(year, purchase_ts)
 )t
 
--- 2. Growth Rates: What were our monthly and yearly growth rates?
--- 2.1 Are there spesific months or seasons where growth rates were consistently high/low?
--- 2.2 Which months had the highest/lowest growth? What was the average monthly change ?
+-- Growth Rates: What were our monthly and yearly growth rates?
+-- Are there spesific months or seasons where growth rates were consistently high/low?
+-- Which months had the highest/lowest growth? What was the average monthly change ?
 
 WITH monthly_sales_growth_rate AS 
 (
@@ -182,7 +182,7 @@ SELECT
 FROM highest_growth hg
 CROSS JOIN lowest_growth lg
 
--- 2.3 In September 2021, while revenue and order volume declined, AOV increased. Which product contributed most to this AOV spike?
+-- In September 2021, while revenue and order volume declined, AOV increased. Which product contributed most to this AOV spike?
 
 SELECT 
     product_name,
@@ -194,7 +194,7 @@ WHERE purchase_ts >= '2021-09-01' AND purchase_ts < '2021-10-01'
 GROUP BY product_name
 ORDER BY SUM(usd_price) DESC;
 
--- 2.4 Which customer segments and regions contributed most to the AOV increase through MacBook Pro purchases in September 2021?
+-- Which customer segments and regions contributed most to the AOV increase through MacBook Pro purchases in September 2021?
 
 SELECT 
     g.region,
@@ -450,7 +450,7 @@ FROM product_performance
 WHERE product_name = 'ThinkPad Laptop'
 ORDER BY total_revenue DESC
 
--- What is the average quarterly order count and total sales for Macbooks sold in North America? (i.e. “For North America Macbooks, average of X units sold per quarter and Y in dollar sales per quarter”)
+-- What is the average quarterly order count and total sales for Macbooks sold in North America? (i.e. Â“For North America Macbooks, average of X units sold per quarter and Y in dollar sales per quarterÂ”)
 
 WITH quarterly_metrics AS (
   SELECT
