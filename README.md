@@ -35,7 +35,7 @@ Targeted SQL queries regarding various business questions can be found [here](ht
 
 # Data Structure & Initial Checks
 
-TechHive Global's database structure as seen below consists of four tables: orders, customers, order_status, geo_lookup, with a total row count of 180,127 records. A description of each table is as follows:
+TechHive Global's database structure as seen below consists of four tables: orders, customers, order_status, geo_lookup, with a total row count of 160,127 records. A description of each table is as follows:
 
 ![erdgithub](https://github.com/user-attachments/assets/4c23ec7d-4d12-4e1c-9db2-219a34f194f9)
 
@@ -50,9 +50,9 @@ Prior to beginning the analysis, a variety of checks were conducted to ensure da
 
 * In **2020**, the company recorded its highest growth, with more than double the number of sales (34K orders) and total sales revenue ($10M) than 2019. **MacBook Air** sales were the main product driver of this spike, growing **384%** from 2019 to 2020.
 
-* However, since 2020, this upward trend reversed in the following years, with significant drops recorded in **2022**. Key performance indicators show year over year declines across the board: revenue fell by **46%**, order volume by **40%**, and average order value by **10%**.
+* However, since 2020, this upward trend reversed in the following years, with significant drops recorded in **2022**. Key performance indicators show year over year declines across the board: **revenue fell by 46%, order volume by 40%, and average order value by 10%**. This sharp decline may reflect post-pandemic market normalization.
 
-*   While this sharp decline may reflect post-pandemic market normalization, the following sections will explore additional factors influencing sales performance and highlight key opportunity areas for improvement.
+* The loyalty program, introduced in 2019, has shown promising growth potential. While non members have historically spend more
 
 Below is the sales overview page from the Power BI dashboard and more examples are included throughout the report. The entire interactive dashboard can be found here [link].
 
@@ -96,7 +96,6 @@ Below is the sales overview page from the Power BI dashboard and more examples a
 
 * In 2022, despite an overall decline in sales performance, **returning loyalty members maintained strong engagement spending $60 more per order than non-members and generating $2.7M in revenue.** This underscores the program’s continued ability to drive retention and high-value purchasing, even during market downturns.
   
-
 ![4](https://github.com/user-attachments/assets/6a54b4f7-93cf-4ba9-8a85-c1fb36d0cba0)
 
 
