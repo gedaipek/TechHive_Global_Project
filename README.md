@@ -39,7 +39,7 @@ TechHive Global's database structure as seen below consists of four tables: orde
 
 ![erdgithub](https://github.com/user-attachments/assets/4c23ec7d-4d12-4e1c-9db2-219a34f194f9)
 
-Prior to beginning the analysis, a variety of checks were conducted to ensure data quality and to become familiar with the dataset. The SQL queries utilized to inspect and perform quality control checks can be found [here](https://github.com/gedaipek/SQL-project/blob/main/scripts/SQL/Example%20Data%20Quality%20Checks..sql).
+Prior to beginning the analysis, a variety of checks were conducted to ensure data quality and to become familiar with the dataset. The SQL queries utilized to inspect and perform quality control checks can be found [here](https://github.com/gedaipek/SQL-project/blob/main/docs/Techhive%20Power%20BI%20Dashboard.pbit).
 
 
 # Executive Summary
@@ -56,7 +56,7 @@ Prior to beginning the analysis, a variety of checks were conducted to ensure da
 
 Below is the sales overview page from the Power BI dashboard and more examples are included throughout the report. The entire interactive dashboard can be found here [here](https://github.com/gedaipek/SQL-project/blob/main/docs/TechHive%20Power%20BI%20Dashboard.pbit).
 
-![Ekran görüntüsü 2025-04-17 024149](https://github.com/user-attachments/assets/70987456-a426-46d9-99b4-e940bcc14032)
+![Ekran görüntüsü 2025-04-17 185429](https://github.com/user-attachments/assets/5cea8271-5e14-4b57-b203-feadb25d3a9f)
 
 
 # Insights Deep Dive
@@ -70,7 +70,7 @@ Below is the sales overview page from the Power BI dashboard and more examples a
   
 * Average order value recorded a single increase in September 2022, which can be associated with an increased share of order volume toward premium products such as high-cost laptops.
 
-![ekleEkran görüntüsü 2025-04-15 203008](https://github.com/user-attachments/assets/b3944d4e-3650-4ff7-905a-fdd861ee8e33)
+![Ekran görüntüsü 2025-04-17 190552](https://github.com/user-attachments/assets/9ce18aed-b5a5-4aa5-9471-f4fc9f2841ff)
 
 
 ### Key Product Level Performance:
@@ -96,7 +96,7 @@ Below is the sales overview page from the Power BI dashboard and more examples a
 
 * In 2022, despite an overall decline in sales performance, **returning loyalty members maintained strong engagement spending $60 more per order than non-members and generating $2.7M in revenue.** This underscores the program’s continued ability to drive retention and high-value purchasing, even during market downturns.
   
-![Ekran görüntüsü 2025-04-17 030726](https://github.com/user-attachments/assets/2063657f-5d1a-4894-89e7-158175495536)
+![Ekran görüntüsü 2025-04-17 190112](https://github.com/user-attachments/assets/b1eed679-7950-4b31-99e3-c70fda79debb)
 
 
 ### Regional Comparisons:
