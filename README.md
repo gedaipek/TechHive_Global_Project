@@ -14,7 +14,6 @@
   - [Loyalty Program Performance](#loyalty-program-performance)
   - [Regional Comparisons](#regional-comparisons)
 - [Recommendations](#recommendations)
-- [Assumptions and Caveats](#assumptions-and-caveats)
 
 
 # Project Background
