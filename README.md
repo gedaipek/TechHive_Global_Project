@@ -52,7 +52,9 @@ Prior to beginning the analysis, a variety of checks were conducted to ensure da
 
 * However, since 2020, this upward trend reversed in the following years, with significant drops recorded in **2022**. Key performance indicators show year over year declines across the board: **revenue fell by 46%, order volume by 40%, and average order value by 10%**. This sharp decline may reflect post-pandemic market normalization.
 
-* The loyalty program, introduced in 2019, has shown promising growth potential. While non members have historically spend more
+* Between 2019 and 2020, **Gaming Monitor, Apple AirPods, and MacBook Air Laptop accounted for 70% of total orders and 86% of total sales revenue**, highlighting a heavy reliance on a narrow product range. To ensure long-term business sustainability, diversifying the product portfolio is strongly recommended.
+
+* The loyalty program, introduced in 2019, has demonstrated promising growth potential. Although non-members historically had a higher average spend than members, this trend has reversed in recent years. Retaining and optimizing the program could be a key driver for future revenue growth.
 
 Below is the sales overview page from the Power BI dashboard and more examples are included throughout the report. The entire interactive dashboard can be found here [here](https://github.com/gedaipek/SQL-project/blob/main/docs/TechHive%20Power%20BI%20Dashboard.pbit).
 
@@ -114,7 +116,7 @@ Below is the sales overview page from the Power BI dashboard and more examples a
 
 # Recommendations:
 
-* With 70% of orders and 86% of revenue coming from just three products, diversifying the product category is crucial to reduce depency and mitigate business risk. Expanding the accessory category with new, high-demand product lines such as Apple charging cables, would provide opporunuties for upselling and support sustainable revenue growth.
+* With 70% of orders and 86% of revenue coming from just three products, diversifying the product category is crucial to reduce depency and mitigate business risk. **Expanding the accessory category with new, high-demand product lines such as Apple charging cables, would provide opporunuties for upselling and support sustainable revenue growth.**
 
 * Capitalize on the growing share of Samsung accessories, which accounted for 32% of order count in 2022, **by introducing higher-cost Samsung products in already carried product categories such as laptops and cellphones.**
 
