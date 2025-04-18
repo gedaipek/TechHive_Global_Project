@@ -58,7 +58,7 @@ Prior to beginning the analysis, a variety of checks were conducted to ensure da
 
 Below is the sales overview page from the Power BI dashboard and more examples are included throughout the report. The entire interactive dashboard can be found here [here](https://github.com/gedaipek/SQL-project/blob/main/docs/TechHive%20Power%20BI%20Dashboard.pbit).
 
-![3Ekran görüntüsü 2025-04-17 195959](https://github.com/user-attachments/assets/1da6649e-c863-4223-b6e0-e43c72cd8cbc)
+![3Ekran görüntüsü 2025-04-17 195959](https://github.com/user-attachments/assets/6587a5ac-31bd-4e48-94eb-3a65bb70f08f)
 
 
 # Insights Deep Dive
@@ -72,7 +72,7 @@ Below is the sales overview page from the Power BI dashboard and more examples a
   
 * Average order value recorded a single increase in September 2022, which can be associated with an increased share of order volume toward premium products such as high-cost laptops.
 
-![Ekran görüntüsü 2025-04-17 190552](https://github.com/user-attachments/assets/1c401158-d898-4b56-90a3-e1c93654e1c7)
+![4Ekran görüntüsü 2025-04-17 200555](https://github.com/user-attachments/assets/a14a2a02-1e07-42b4-8bee-372f300864a7)
 
 
 ### Key Product Level Performance:
