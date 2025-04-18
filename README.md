@@ -70,7 +70,7 @@ Below is the sales overview page from the Power BI dashboard and more examples a
   
 * Average order value recorded a single increase in September 2022, which can be associated with an increased share of order volume toward premium products such as high-cost laptops.
 
-![Ekran görüntüsü 2025-04-17 190552](https://github.com/user-attachments/assets/9ce18aed-b5a5-4aa5-9471-f4fc9f2841ff)
+![Ekran görüntüsü 2025-04-17 190552](https://github.com/user-attachments/assets/1c401158-d898-4b56-90a3-e1c93654e1c7)
 
 
 ### Key Product Level Performance:
