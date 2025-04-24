@@ -55,7 +55,7 @@ Prior to beginning the analysis, a variety of checks were conducted to ensure da
 
 * The loyalty program, introduced in 2019, has demonstrated promising growth potential. Although non-members historically had a higher average spend than members, this trend has reversed in recent years. Retaining and optimizing the program could be a key driver for future revenue growth.
 
-Below is the sales overview page from the Power BI dashboard and more examples are included throughout the report. The entire interactive dashboard can be found here [here](https://github.com/gedaipek/SQL-project/blob/main/docs/Techive%20Global%20Power%20BI%20Dashboard.pbit).
+Below is the sales overview page from the Power BI dashboard and more examples are included throughout the report. The entire interactive dashboard can be found here [here](https://github.com/gedaipek/TechHive_Global_Project/blob/main/docs/TechHive%20Global%20Dashboard%20Power%20BI.pbit).
 
 ![11Ekran görüntüsü 2025-04-24 012342](https://github.com/user-attachments/assets/ed3e9660-9da9-43c9-8946-2d4debb265f6)
 
