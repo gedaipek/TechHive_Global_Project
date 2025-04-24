@@ -57,7 +57,7 @@ Prior to beginning the analysis, a variety of checks were conducted to ensure da
 
 Below is the sales overview page from the Power BI dashboard and more examples are included throughout the report. The entire interactive dashboard can be found here [here](https://github.com/gedaipek/SQL-project/blob/main/docs/Techive%20Global%20Power%20BI%20Dashboard.pbit).
 
-![3Ekran görüntüsü 2025-04-17 195959](https://github.com/user-attachments/assets/6587a5ac-31bd-4e48-94eb-3a65bb70f08f)
+![Ekran görüntüsü 2025-04-24 004604](https://github.com/user-attachments/assets/acf7ded6-a6ad-4de0-b87e-418ffd8ba768)
 
 
 # Insights Deep Dive
