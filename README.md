@@ -97,7 +97,7 @@ Below is the sales overview page from the Power BI dashboard and more examples a
 
 * In 2022, despite an overall decline in sales performance, **returning loyalty members maintained strong engagement spending $60 more per order than non-members and generating $2.7M in revenue.** This underscores the program’s continued ability to drive retention and high-value purchasing, even during market downturns.
   
-![Ekran görüntüsü 2025-04-17 190112](https://github.com/user-attachments/assets/b1eed679-7950-4b31-99e3-c70fda79debb)
+![1Ekran görüntüsü 2025-04-24 102619](https://github.com/user-attachments/assets/a2ab6b79-840f-4896-8167-a33c3cb4af5d)
 
 
 ### Regional Comparisons:
